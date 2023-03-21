@@ -44,6 +44,12 @@ public class HomePage extends javax.swing.JFrame {
         panelAdm.setVisible(false);
         panelPerfil.setVisible(false);
         panelSac.setVisible(false);
+        panelModa.setVisible(false);
+        panelReclamacao.setVisible(false);
+        op7.setVisible(false);
+        opProd.setVisible(false);
+        panelProduto.setVisible(false);
+        atualizaPanel.setVisible(false);
     }
     
     public void fechar(){
@@ -96,6 +102,8 @@ public class HomePage extends javax.swing.JFrame {
         jLabel7 = new javax.swing.JLabel();
         op2 = new javax.swing.JPanel();
         jLabel9 = new javax.swing.JLabel();
+        op7 = new javax.swing.JPanel();
+        jLabel178 = new javax.swing.JLabel();
         op6 = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
         op4 = new javax.swing.JPanel();
@@ -104,100 +112,79 @@ public class HomePage extends javax.swing.JFrame {
         jLabel11 = new javax.swing.JLabel();
         op5 = new javax.swing.JPanel();
         jLabel12 = new javax.swing.JLabel();
-        alterarCliente = new javax.swing.JPanel();
-        jLabel80 = new javax.swing.JLabel();
+        opProd = new javax.swing.JPanel();
+        jLabel187 = new javax.swing.JLabel();
         alterarAdm = new javax.swing.JPanel();
         jLabel144 = new javax.swing.JLabel();
         divider1 = new javax.swing.JPanel();
-        panelTenis = new javax.swing.JScrollPane();
-        jPanel5 = new javax.swing.JPanel();
-        jLabel34 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        divider6 = new javax.swing.JPanel();
-        divider7 = new javax.swing.JPanel();
-        divider8 = new javax.swing.JPanel();
-        jLabel79 = new javax.swing.JLabel();
-        divider9 = new javax.swing.JPanel();
-        tenis1 = new javax.swing.JPanel();
-        jLabel140 = new javax.swing.JLabel();
-        jLabel141 = new javax.swing.JLabel();
-        jLabel142 = new javax.swing.JLabel();
-        tenis2 = new javax.swing.JPanel();
-        jLabel83 = new javax.swing.JLabel();
-        jLabel84 = new javax.swing.JLabel();
-        jLabel85 = new javax.swing.JLabel();
-        tenis3 = new javax.swing.JPanel();
-        jLabel86 = new javax.swing.JLabel();
-        jLabel87 = new javax.swing.JLabel();
-        jLabel88 = new javax.swing.JLabel();
-        tenis4 = new javax.swing.JPanel();
-        jLabel89 = new javax.swing.JLabel();
-        jLabel90 = new javax.swing.JLabel();
-        jLabel91 = new javax.swing.JLabel();
-        tenis5 = new javax.swing.JPanel();
-        jLabel92 = new javax.swing.JLabel();
-        jLabel93 = new javax.swing.JLabel();
-        jLabel94 = new javax.swing.JLabel();
-        tenis6 = new javax.swing.JPanel();
-        jLabel95 = new javax.swing.JLabel();
-        jLabel96 = new javax.swing.JLabel();
-        jLabel97 = new javax.swing.JLabel();
-        tenis7 = new javax.swing.JPanel();
-        jLabel98 = new javax.swing.JLabel();
-        jLabel99 = new javax.swing.JLabel();
-        jLabel100 = new javax.swing.JLabel();
-        tenis8 = new javax.swing.JPanel();
-        jLabel101 = new javax.swing.JLabel();
-        jLabel102 = new javax.swing.JLabel();
-        jLabel103 = new javax.swing.JLabel();
-        tenis9 = new javax.swing.JPanel();
-        jLabel104 = new javax.swing.JLabel();
-        jLabel105 = new javax.swing.JLabel();
-        jLabel106 = new javax.swing.JLabel();
-        tenis10 = new javax.swing.JPanel();
-        jLabel107 = new javax.swing.JLabel();
-        jLabel108 = new javax.swing.JLabel();
-        jLabel109 = new javax.swing.JLabel();
-        tenis11 = new javax.swing.JPanel();
-        jLabel110 = new javax.swing.JLabel();
-        jLabel111 = new javax.swing.JLabel();
-        jLabel112 = new javax.swing.JLabel();
-        tenis12 = new javax.swing.JPanel();
-        jLabel113 = new javax.swing.JLabel();
-        jLabel114 = new javax.swing.JLabel();
-        jLabel115 = new javax.swing.JLabel();
-        tenis13 = new javax.swing.JPanel();
-        jLabel116 = new javax.swing.JLabel();
-        jLabel117 = new javax.swing.JLabel();
-        jLabel118 = new javax.swing.JLabel();
-        tenis14 = new javax.swing.JPanel();
-        jLabel119 = new javax.swing.JLabel();
-        jLabel120 = new javax.swing.JLabel();
-        jLabel121 = new javax.swing.JLabel();
-        tenis15 = new javax.swing.JPanel();
-        jLabel122 = new javax.swing.JLabel();
-        jLabel123 = new javax.swing.JLabel();
-        jLabel124 = new javax.swing.JLabel();
-        tenis16 = new javax.swing.JPanel();
-        jLabel125 = new javax.swing.JLabel();
-        jLabel126 = new javax.swing.JLabel();
-        jLabel127 = new javax.swing.JLabel();
-        tenis17 = new javax.swing.JPanel();
-        jLabel128 = new javax.swing.JLabel();
-        jLabel129 = new javax.swing.JLabel();
-        jLabel130 = new javax.swing.JLabel();
-        tenis18 = new javax.swing.JPanel();
-        jLabel131 = new javax.swing.JLabel();
-        jLabel132 = new javax.swing.JLabel();
-        jLabel133 = new javax.swing.JLabel();
-        tenis19 = new javax.swing.JPanel();
-        jLabel134 = new javax.swing.JLabel();
-        jLabel135 = new javax.swing.JLabel();
-        jLabel136 = new javax.swing.JLabel();
-        tenis20 = new javax.swing.JPanel();
-        jLabel137 = new javax.swing.JLabel();
-        jLabel138 = new javax.swing.JLabel();
-        jLabel139 = new javax.swing.JLabel();
+        modaAtual = new javax.swing.JPanel();
+        jLabel177 = new javax.swing.JLabel();
+        alterarCliente = new javax.swing.JPanel();
+        jLabel80 = new javax.swing.JLabel();
+        panelProduto = new javax.swing.JPanel();
+        atualizaPanel = new javax.swing.JPanel();
+        jPanel13 = new javax.swing.JPanel();
+        jLabel189 = new javax.swing.JLabel();
+        txtNomeProdCarregado = new app.bolivia.swing.JCTextField();
+        jLabel190 = new javax.swing.JLabel();
+        txtValorProdCarregado = new app.bolivia.swing.JCTextField();
+        jLabel191 = new javax.swing.JLabel();
+        txtDescProdCarregado = new app.bolivia.swing.JCTextField();
+        jLabel192 = new javax.swing.JLabel();
+        txtTamProdCarregado = new app.bolivia.swing.JCTextField();
+        txtId = new javax.swing.JLabel();
+        total2 = new javax.swing.JLabel();
+        jLabel188 = new javax.swing.JLabel();
+        salvarProduto = new javax.swing.JButton();
+        cancelarAlteracao = new javax.swing.JButton();
+        apresentacao2 = new javax.swing.JLabel();
+        jLabel179 = new javax.swing.JLabel();
+        salvarProd = new javax.swing.JButton();
+        jLabel182 = new javax.swing.JLabel();
+        jPanel12 = new javax.swing.JPanel();
+        jLabel183 = new javax.swing.JLabel();
+        txtNomeProd = new app.bolivia.swing.JCTextField();
+        jLabel184 = new javax.swing.JLabel();
+        txtValorProd = new app.bolivia.swing.JCTextField();
+        jLabel185 = new javax.swing.JLabel();
+        txtDescProd = new app.bolivia.swing.JCTextField();
+        jLabel186 = new javax.swing.JLabel();
+        txtTamProd = new app.bolivia.swing.JCTextField();
+        excluirCliente1 = new javax.swing.JButton();
+        tabela4 = new javax.swing.JScrollPane();
+        tabelaProduto = new javax.swing.JTable();
+        atualizaProd = new javax.swing.JButton();
+        panelCarrinho = new javax.swing.JPanel();
+        pagamentoPanel = new javax.swing.JPanel();
+        apresentacao = new javax.swing.JLabel();
+        total1 = new javax.swing.JLabel();
+        total = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel143 = new javax.swing.JLabel();
+        comprar = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+        tabela = new javax.swing.JScrollPane();
+        tabelaCarrinho = new javax.swing.JTable();
+        aumentarQTD = new javax.swing.JButton();
+        totall = new javax.swing.JLabel();
+        jLabel145 = new javax.swing.JLabel();
+        finalizarCompra = new javax.swing.JButton();
+        excluirItem = new javax.swing.JButton();
+        diminuirQTD = new javax.swing.JButton();
+        qtdNew = new app.bolivia.swing.JCTextField();
+        panelReclamacao = new javax.swing.JPanel();
+        tabela3 = new javax.swing.JScrollPane();
+        tabelaReclamacao = new javax.swing.JTable();
+        jLabel181 = new javax.swing.JLabel();
+        excluirReclamacao = new javax.swing.JButton();
+        panelModa = new javax.swing.JPanel();
+        tabela2 = new javax.swing.JScrollPane();
+        tabelaModa = new javax.swing.JTable();
+        MaisqtdProduto = new javax.swing.JButton();
+        jLabel180 = new javax.swing.JLabel();
+        adicionar = new javax.swing.JButton();
+        MenosqtdProduto = new javax.swing.JButton();
+        qtdProd = new app.bolivia.swing.JCTextField();
         panelRoupa = new javax.swing.JScrollPane();
         jPanel4 = new javax.swing.JPanel();
         jLabel30 = new javax.swing.JLabel();
@@ -288,17 +275,95 @@ public class HomePage extends javax.swing.JFrame {
         jLabel78 = new javax.swing.JLabel();
         jPanel6 = new javax.swing.JPanel();
         jLabel82 = new javax.swing.JLabel();
-        panelMain = new javax.swing.JPanel();
-        jPanel11 = new javax.swing.JPanel();
-        jLabel167 = new javax.swing.JLabel();
-        jLabel169 = new javax.swing.JLabel();
-        jLabel170 = new javax.swing.JLabel();
-        jLabel171 = new javax.swing.JLabel();
-        jLabel172 = new javax.swing.JLabel();
-        jLabel174 = new javax.swing.JLabel();
-        jLabel175 = new javax.swing.JLabel();
-        jLabel173 = new javax.swing.JLabel();
-        jLabel176 = new javax.swing.JLabel();
+        panelTenis = new javax.swing.JScrollPane();
+        jPanel5 = new javax.swing.JPanel();
+        jLabel34 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        divider6 = new javax.swing.JPanel();
+        divider7 = new javax.swing.JPanel();
+        divider8 = new javax.swing.JPanel();
+        jLabel79 = new javax.swing.JLabel();
+        divider9 = new javax.swing.JPanel();
+        tenis1 = new javax.swing.JPanel();
+        jLabel140 = new javax.swing.JLabel();
+        jLabel141 = new javax.swing.JLabel();
+        jLabel142 = new javax.swing.JLabel();
+        tenis2 = new javax.swing.JPanel();
+        jLabel83 = new javax.swing.JLabel();
+        jLabel84 = new javax.swing.JLabel();
+        jLabel85 = new javax.swing.JLabel();
+        tenis3 = new javax.swing.JPanel();
+        jLabel86 = new javax.swing.JLabel();
+        jLabel87 = new javax.swing.JLabel();
+        jLabel88 = new javax.swing.JLabel();
+        tenis4 = new javax.swing.JPanel();
+        jLabel89 = new javax.swing.JLabel();
+        jLabel90 = new javax.swing.JLabel();
+        jLabel91 = new javax.swing.JLabel();
+        tenis5 = new javax.swing.JPanel();
+        jLabel92 = new javax.swing.JLabel();
+        jLabel93 = new javax.swing.JLabel();
+        jLabel94 = new javax.swing.JLabel();
+        tenis6 = new javax.swing.JPanel();
+        jLabel95 = new javax.swing.JLabel();
+        jLabel96 = new javax.swing.JLabel();
+        jLabel97 = new javax.swing.JLabel();
+        tenis7 = new javax.swing.JPanel();
+        jLabel98 = new javax.swing.JLabel();
+        jLabel99 = new javax.swing.JLabel();
+        jLabel100 = new javax.swing.JLabel();
+        tenis8 = new javax.swing.JPanel();
+        jLabel101 = new javax.swing.JLabel();
+        jLabel102 = new javax.swing.JLabel();
+        jLabel103 = new javax.swing.JLabel();
+        tenis9 = new javax.swing.JPanel();
+        jLabel104 = new javax.swing.JLabel();
+        jLabel105 = new javax.swing.JLabel();
+        jLabel106 = new javax.swing.JLabel();
+        tenis10 = new javax.swing.JPanel();
+        jLabel107 = new javax.swing.JLabel();
+        jLabel108 = new javax.swing.JLabel();
+        jLabel109 = new javax.swing.JLabel();
+        tenis11 = new javax.swing.JPanel();
+        jLabel110 = new javax.swing.JLabel();
+        jLabel111 = new javax.swing.JLabel();
+        jLabel112 = new javax.swing.JLabel();
+        tenis12 = new javax.swing.JPanel();
+        jLabel113 = new javax.swing.JLabel();
+        jLabel114 = new javax.swing.JLabel();
+        jLabel115 = new javax.swing.JLabel();
+        tenis13 = new javax.swing.JPanel();
+        jLabel116 = new javax.swing.JLabel();
+        jLabel117 = new javax.swing.JLabel();
+        jLabel118 = new javax.swing.JLabel();
+        tenis14 = new javax.swing.JPanel();
+        jLabel119 = new javax.swing.JLabel();
+        jLabel120 = new javax.swing.JLabel();
+        jLabel121 = new javax.swing.JLabel();
+        tenis15 = new javax.swing.JPanel();
+        jLabel122 = new javax.swing.JLabel();
+        jLabel123 = new javax.swing.JLabel();
+        jLabel124 = new javax.swing.JLabel();
+        tenis16 = new javax.swing.JPanel();
+        jLabel125 = new javax.swing.JLabel();
+        jLabel126 = new javax.swing.JLabel();
+        jLabel127 = new javax.swing.JLabel();
+        tenis17 = new javax.swing.JPanel();
+        jLabel128 = new javax.swing.JLabel();
+        jLabel129 = new javax.swing.JLabel();
+        jLabel130 = new javax.swing.JLabel();
+        tenis18 = new javax.swing.JPanel();
+        jLabel131 = new javax.swing.JLabel();
+        jLabel132 = new javax.swing.JLabel();
+        jLabel133 = new javax.swing.JLabel();
+        tenis19 = new javax.swing.JPanel();
+        jLabel134 = new javax.swing.JLabel();
+        jLabel135 = new javax.swing.JLabel();
+        jLabel136 = new javax.swing.JLabel();
+        tenis20 = new javax.swing.JPanel();
+        jLabel137 = new javax.swing.JLabel();
+        jLabel138 = new javax.swing.JLabel();
+        jLabel139 = new javax.swing.JLabel();
         panelPerfil = new javax.swing.JPanel();
         jLabel158 = new javax.swing.JLabel();
         salvarCadastroAdm1 = new javax.swing.JButton();
@@ -314,6 +379,17 @@ public class HomePage extends javax.swing.JFrame {
         jPanel9 = new javax.swing.JPanel();
         jLabel159 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
+        panelMain = new javax.swing.JPanel();
+        jPanel11 = new javax.swing.JPanel();
+        jLabel167 = new javax.swing.JLabel();
+        jLabel169 = new javax.swing.JLabel();
+        jLabel170 = new javax.swing.JLabel();
+        jLabel171 = new javax.swing.JLabel();
+        jLabel172 = new javax.swing.JLabel();
+        jLabel174 = new javax.swing.JLabel();
+        jLabel175 = new javax.swing.JLabel();
+        jLabel173 = new javax.swing.JLabel();
+        jLabel176 = new javax.swing.JLabel();
         panelSac = new javax.swing.JPanel();
         jLabel164 = new javax.swing.JLabel();
         enviarReclamacao = new javax.swing.JButton();
@@ -340,24 +416,6 @@ public class HomePage extends javax.swing.JFrame {
         jLabel157 = new javax.swing.JLabel();
         txtAdmTel = new app.bolivia.swing.JCTextField();
         excluirAdm = new javax.swing.JButton();
-        panelCarrinho = new javax.swing.JPanel();
-        pagamentoPanel = new javax.swing.JPanel();
-        apresentacao = new javax.swing.JLabel();
-        total1 = new javax.swing.JLabel();
-        total = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
-        jLabel143 = new javax.swing.JLabel();
-        comprar = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        tabela = new javax.swing.JScrollPane();
-        tabelaCarrinho = new javax.swing.JTable();
-        aumentarQTD = new javax.swing.JButton();
-        totall = new javax.swing.JLabel();
-        jLabel145 = new javax.swing.JLabel();
-        finalizarCompra = new javax.swing.JButton();
-        excluirItem = new javax.swing.JButton();
-        diminuirQTD = new javax.swing.JButton();
-        qtdNew = new app.bolivia.swing.JCTextField();
         panelCliente = new javax.swing.JPanel();
         tabelaCliente = new javax.swing.JScrollPane();
         tabelaClientes = new javax.swing.JTable();
@@ -511,6 +569,22 @@ public class HomePage extends javax.swing.JFrame {
 
         menu.add(op2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 120, 330, 60));
 
+        op7.setBackground(new java.awt.Color(102, 102, 255));
+        op7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        op7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                op7MouseClicked(evt);
+            }
+        });
+        op7.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel178.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 18)); // NOI18N
+        jLabel178.setIcon(new javax.swing.ImageIcon(getClass().getResource("/adminIcons/businessman.png"))); // NOI18N
+        jLabel178.setText("    Ver reclamações");
+        op7.add(jLabel178, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 200, 30));
+
+        menu.add(op7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 460, 330, 60));
+
         op6.setBackground(new java.awt.Color(102, 102, 255));
         op6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         op6.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -525,7 +599,7 @@ public class HomePage extends javax.swing.JFrame {
         jLabel10.setText("    SAC");
         op6.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 200, 30));
 
-        menu.add(op6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 400, 330, 60));
+        menu.add(op6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 460, 330, 60));
 
         op4.setBackground(new java.awt.Color(102, 102, 255));
         op4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -541,7 +615,7 @@ public class HomePage extends javax.swing.JFrame {
         jLabel8.setText("    Meu histórico");
         op4.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 200, 30));
 
-        menu.add(op4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 280, 330, 60));
+        menu.add(op4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 340, 330, 60));
 
         op3.setBackground(new java.awt.Color(102, 102, 255));
         op3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -572,25 +646,25 @@ public class HomePage extends javax.swing.JFrame {
         jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/adminIcons/trolley.png"))); // NOI18N
         jLabel12.setText("      Meu carrinho");
-        op5.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 190, 30));
+        op5.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(35, 20, 190, 30));
 
-        menu.add(op5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 340, 330, 60));
+        menu.add(op5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 400, 330, 60));
 
-        alterarCliente.setBackground(new java.awt.Color(102, 102, 255));
-        alterarCliente.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        alterarCliente.addMouseListener(new java.awt.event.MouseAdapter() {
+        opProd.setBackground(new java.awt.Color(102, 102, 255));
+        opProd.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        opProd.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                alterarClienteMouseClicked(evt);
+                opProdMouseClicked(evt);
             }
         });
-        alterarCliente.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        opProd.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel80.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 18)); // NOI18N
-        jLabel80.setIcon(new javax.swing.ImageIcon(getClass().getResource("/adminIcons/edit.png"))); // NOI18N
-        jLabel80.setText("    Alterar clientes");
-        alterarCliente.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 200, 30));
+        jLabel187.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 18)); // NOI18N
+        jLabel187.setIcon(new javax.swing.ImageIcon(getClass().getResource("/adminIcons/colecoes.png"))); // NOI18N
+        jLabel187.setText("    Alterar produtos");
+        opProd.add(jLabel187, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 200, 30));
 
-        menu.add(alterarCliente, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 280, 330, 60));
+        menu.add(opProd, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 280, 330, 60));
 
         alterarAdm.setBackground(new java.awt.Color(102, 102, 255));
         alterarAdm.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -605,9 +679,9 @@ public class HomePage extends javax.swing.JFrame {
         jLabel144.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel144.setIcon(new javax.swing.ImageIcon(getClass().getResource("/adminIcons/compose.png"))); // NOI18N
         jLabel144.setText("      Alterar Administradores");
-        alterarAdm.add(jLabel144, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 260, 30));
+        alterarAdm.add(jLabel144, new org.netbeans.lib.awtextra.AbsoluteConstraints(35, 20, 260, 30));
 
-        menu.add(alterarAdm, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 340, 330, 60));
+        menu.add(alterarAdm, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 400, 330, 60));
 
         divider1.setBackground(new java.awt.Color(0, 0, 0));
 
@@ -624,609 +698,530 @@ public class HomePage extends javax.swing.JFrame {
 
         menu.add(divider1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 265, 290, 3));
 
+        modaAtual.setBackground(new java.awt.Color(102, 102, 255));
+        modaAtual.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        modaAtual.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                modaAtualMouseClicked(evt);
+            }
+        });
+        modaAtual.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel177.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 18)); // NOI18N
+        jLabel177.setIcon(new javax.swing.ImageIcon(getClass().getResource("/adminIcons/colecoes.png"))); // NOI18N
+        jLabel177.setText("    Moda Atual");
+        modaAtual.add(jLabel177, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 200, 30));
+
+        menu.add(modaAtual, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 280, 330, 60));
+
+        alterarCliente.setBackground(new java.awt.Color(102, 102, 255));
+        alterarCliente.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        alterarCliente.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                alterarClienteMouseClicked(evt);
+            }
+        });
+        alterarCliente.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel80.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 18)); // NOI18N
+        jLabel80.setIcon(new javax.swing.ImageIcon(getClass().getResource("/adminIcons/edit.png"))); // NOI18N
+        jLabel80.setText("    Alterar clientes");
+        alterarCliente.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 200, 30));
+
+        menu.add(alterarCliente, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 340, 330, 60));
+
         getContentPane().add(menu, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 70, 0, 650));
 
-        panelTenis.setBorder(null);
-        panelTenis.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
-        panelTenis.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
-        panelTenis.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        panelProduto.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        atualizaPanel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 153), 2));
+        atualizaPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel34.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel34.setText("Ofertas imperdíveis");
-        jPanel5.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 830, -1, -1));
+        jPanel13.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel13.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(178, 178, 178)));
+        jPanel13.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel14.setBackground(new java.awt.Color(0, 0, 255));
-        jLabel14.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 36)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(102, 102, 255));
-        jLabel14.setText("Tendências de hoje");
-        jPanel5.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, 330, 40));
+        jLabel189.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 18)); // NOI18N
+        jLabel189.setText("Nome");
+        jPanel13.add(jLabel189, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 0, 90, 34));
 
-        divider6.setBackground(new java.awt.Color(102, 102, 102));
+        txtNomeProdCarregado.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        txtNomeProdCarregado.setPlaceholder("Nome do produto");
+        jPanel13.add(txtNomeProdCarregado, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, 280, 40));
 
-        javax.swing.GroupLayout divider6Layout = new javax.swing.GroupLayout(divider6);
-        divider6.setLayout(divider6Layout);
-        divider6Layout.setHorizontalGroup(
-            divider6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
-        );
-        divider6Layout.setVerticalGroup(
-            divider6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 3, Short.MAX_VALUE)
-        );
+        jLabel190.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 18)); // NOI18N
+        jLabel190.setText("Valor");
+        jPanel13.add(jLabel190, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, 90, 34));
 
-        jPanel5.add(divider6, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 847, 390, 3));
+        txtValorProdCarregado.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        txtValorProdCarregado.setPlaceholder("Valor do produto");
+        jPanel13.add(txtValorProdCarregado, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 140, 280, 40));
 
-        divider7.setBackground(new java.awt.Color(102, 102, 102));
+        jLabel191.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 18)); // NOI18N
+        jLabel191.setText("Descrição");
+        jPanel13.add(jLabel191, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 200, 90, 34));
 
-        javax.swing.GroupLayout divider7Layout = new javax.swing.GroupLayout(divider7);
-        divider7.setLayout(divider7Layout);
-        divider7Layout.setHorizontalGroup(
-            divider7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
-        );
-        divider7Layout.setVerticalGroup(
-            divider7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 3, Short.MAX_VALUE)
-        );
+        txtDescProdCarregado.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        txtDescProdCarregado.setPlaceholder("Descrição do produto");
+        jPanel13.add(txtDescProdCarregado, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 240, 280, 40));
 
-        jPanel5.add(divider7, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 847, 360, 3));
+        jLabel192.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 18)); // NOI18N
+        jLabel192.setText("Tamanho");
+        jPanel13.add(jLabel192, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 300, 90, 34));
 
-        divider8.setBackground(new java.awt.Color(102, 102, 102));
+        txtTamProdCarregado.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        txtTamProdCarregado.setPlaceholder("Tamanho do produto");
+        jPanel13.add(txtTamProdCarregado, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 340, 280, 40));
 
-        javax.swing.GroupLayout divider8Layout = new javax.swing.GroupLayout(divider8);
-        divider8.setLayout(divider8Layout);
-        divider8Layout.setHorizontalGroup(
-            divider8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
-        );
-        divider8Layout.setVerticalGroup(
-            divider8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 3, Short.MAX_VALUE)
-        );
+        atualizaPanel.add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 60, 340, 390));
 
-        jPanel5.add(divider8, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 1300, 400, 3));
+        txtId.setBackground(new java.awt.Color(0, 0, 255));
+        txtId.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 32)); // NOI18N
+        txtId.setForeground(new java.awt.Color(102, 102, 255));
+        atualizaPanel.add(txtId, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 10, 90, 40));
 
-        jLabel79.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel79.setText("Novidades");
-        jPanel5.add(jLabel79, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 1280, -1, -1));
+        total2.setBackground(new java.awt.Color(0, 0, 255));
+        total2.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 36)); // NOI18N
+        total2.setForeground(new java.awt.Color(102, 102, 255));
+        total2.setText("Valor da compra:");
+        atualizaPanel.add(total2, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 20, 500, 40));
+        atualizaPanel.add(jLabel188, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 130, -1, -1));
 
-        divider9.setBackground(new java.awt.Color(102, 102, 102));
-
-        javax.swing.GroupLayout divider9Layout = new javax.swing.GroupLayout(divider9);
-        divider9.setLayout(divider9Layout);
-        divider9Layout.setHorizontalGroup(
-            divider9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
-        );
-        divider9Layout.setVerticalGroup(
-            divider9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 3, Short.MAX_VALUE)
-        );
-
-        jPanel5.add(divider9, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 1300, 465, 3));
-
-        tenis1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        tenis1.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                tenis1MouseClicked(evt);
+        salvarProduto.setBackground(new java.awt.Color(204, 255, 204));
+        salvarProduto.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        salvarProduto.setForeground(new java.awt.Color(51, 153, 0));
+        salvarProduto.setText("Salvar");
+        salvarProduto.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                salvarProdutoActionPerformed(evt);
             }
         });
-        tenis1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        atualizaPanel.add(salvarProduto, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 470, 150, 60));
 
-        jLabel140.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/tenis1.jpg"))); // NOI18N
-        tenis1.add(jLabel140, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
-
-        jLabel141.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel141.setText("R$ 229.90");
-        tenis1.add(jLabel141, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
-
-        jLabel142.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel142.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel142.setText("<html>Promoção air force ultra realista. Edição limitada<html>");
-        jLabel142.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jLabel142.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
-        tenis1.add(jLabel142, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 180, 40));
-
-        jPanel5.add(tenis1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 80, 190, 340));
-
-        tenis2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        tenis2.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                tenis2MouseClicked(evt);
+        cancelarAlteracao.setBackground(new java.awt.Color(255, 153, 153));
+        cancelarAlteracao.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        cancelarAlteracao.setForeground(new java.awt.Color(255, 0, 0));
+        cancelarAlteracao.setText("Cancelar");
+        cancelarAlteracao.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cancelarAlteracaoActionPerformed(evt);
             }
         });
-        tenis2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        atualizaPanel.add(cancelarAlteracao, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 470, 150, 60));
 
-        jLabel83.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/tenis2.jpg"))); // NOI18N
-        tenis2.add(jLabel83, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 160, -1));
+        apresentacao2.setBackground(new java.awt.Color(0, 0, 255));
+        apresentacao2.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 32)); // NOI18N
+        apresentacao2.setForeground(new java.awt.Color(102, 102, 255));
+        apresentacao2.setText("Atualizar produto");
+        atualizaPanel.add(apresentacao2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 10, 260, 40));
 
-        jLabel84.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel84.setText("R$ 139.90");
-        tenis2.add(jLabel84, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
+        panelProduto.add(atualizaPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 20, 540, 550));
 
-        jLabel85.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel85.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel85.setText("<html>Tênis jordan rosa e preto. Promoção dia das mulheres<html>");
-        jLabel85.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jLabel85.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
-        tenis2.add(jLabel85, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 290, 180, 60));
+        jLabel179.setBackground(new java.awt.Color(0, 0, 255));
+        jLabel179.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 36)); // NOI18N
+        jLabel179.setForeground(new java.awt.Color(102, 102, 255));
+        jLabel179.setText("Cadastrar produto");
+        panelProduto.add(jLabel179, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 30, 310, 40));
 
-        jPanel5.add(tenis2, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 80, 180, 350));
-
-        tenis3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        tenis3.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                tenis3MouseClicked(evt);
+        salvarProd.setBackground(new java.awt.Color(204, 255, 204));
+        salvarProd.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        salvarProd.setForeground(new java.awt.Color(0, 102, 0));
+        salvarProd.setText("Salvar produto");
+        salvarProd.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                salvarProdActionPerformed(evt);
             }
         });
-        tenis3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        panelProduto.add(salvarProd, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 530, 210, 50));
 
-        jLabel86.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/tenis3.jpg"))); // NOI18N
-        tenis3.add(jLabel86, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 160, -1));
+        jLabel182.setBackground(new java.awt.Color(0, 0, 255));
+        jLabel182.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 36)); // NOI18N
+        jLabel182.setForeground(new java.awt.Color(102, 102, 255));
+        jLabel182.setText("Produtos cadastrados");
+        panelProduto.add(jLabel182, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 370, 40));
 
-        jLabel87.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel87.setText("R$ 259.90");
-        tenis3.add(jLabel87, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
+        jPanel12.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(178, 178, 178)));
+        jPanel12.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel88.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel88.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel88.setText("<html>Tênis asics promoção. Focado em esportes.<html>");
-        jLabel88.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jLabel88.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
-        tenis3.add(jLabel88, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 180, 40));
+        jLabel183.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 18)); // NOI18N
+        jLabel183.setText("Nome");
+        jPanel12.add(jLabel183, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 20, 90, 34));
 
-        jPanel5.add(tenis3, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 80, 190, 340));
+        txtNomeProd.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        txtNomeProd.setPlaceholder("Nome do produto");
+        jPanel12.add(txtNomeProd, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 60, 280, 40));
 
-        tenis4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        tenis4.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                tenis4MouseClicked(evt);
+        jLabel184.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 18)); // NOI18N
+        jLabel184.setText("Valor");
+        jPanel12.add(jLabel184, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 120, 90, 34));
+
+        txtValorProd.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        txtValorProd.setPlaceholder("Valor do produto");
+        jPanel12.add(txtValorProd, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 160, 280, 40));
+
+        jLabel185.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 18)); // NOI18N
+        jLabel185.setText("Descrição");
+        jPanel12.add(jLabel185, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 220, 90, 34));
+
+        txtDescProd.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        txtDescProd.setPlaceholder("Descrição do produto");
+        jPanel12.add(txtDescProd, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 260, 280, 40));
+
+        jLabel186.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 18)); // NOI18N
+        jLabel186.setText("Tamanho");
+        jPanel12.add(jLabel186, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 320, 90, 34));
+
+        txtTamProd.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        txtTamProd.setPlaceholder("Tamanho do produto");
+        jPanel12.add(txtTamProd, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 360, 280, 40));
+
+        panelProduto.add(jPanel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 90, 370, 425));
+
+        excluirCliente1.setBackground(new java.awt.Color(255, 153, 153));
+        excluirCliente1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        excluirCliente1.setForeground(new java.awt.Color(255, 0, 0));
+        excluirCliente1.setText("Excluir produto");
+        excluirCliente1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                excluirCliente1ActionPerformed(evt);
             }
         });
+        panelProduto.add(excluirCliente1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 530, 210, 50));
 
-        jLabel89.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/tenis4.jpg"))); // NOI18N
+        tabelaProduto.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
 
-        jLabel90.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel90.setText("R$ 299.90");
+            },
+            new String [] {
+                "Id produto", "Nome produto", "Valor produto", "Descrição produto", "Tamanho"
+            }
+        ) {
+            Class[] types = new Class [] {
+                java.lang.Integer.class, java.lang.String.class, java.lang.Double.class, java.lang.String.class, java.lang.String.class
+            };
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false
+            };
 
-        jLabel91.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel91.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel91.setText("<html>Tênis atualidade amarelo double nike.<html>");
-        jLabel91.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jLabel91.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
 
-        javax.swing.GroupLayout tenis4Layout = new javax.swing.GroupLayout(tenis4);
-        tenis4.setLayout(tenis4Layout);
-        tenis4Layout.setHorizontalGroup(
-            tenis4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(tenis4Layout.createSequentialGroup()
-                .addGroup(tenis4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel91, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel89)
-                    .addComponent(jLabel90))
-                .addGap(0, 0, Short.MAX_VALUE))
-        );
-        tenis4Layout.setVerticalGroup(
-            tenis4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, tenis4Layout.createSequentialGroup()
-                .addComponent(jLabel89)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel90)
-                .addGap(12, 12, 12)
-                .addComponent(jLabel91, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
-        );
-
-        jPanel5.add(tenis4, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 80, 180, 340));
-
-        tenis5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        tenis5.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                tenis5MouseClicked(evt);
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
             }
         });
+        tabelaProduto.setRowHeight(60);
+        tabelaProduto.setShowGrid(false);
+        tabela4.setViewportView(tabelaProduto);
+        tabelaProduto.getColumnModel().getSelectionModel().setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
+        if (tabelaProduto.getColumnModel().getColumnCount() > 0) {
+            tabelaProduto.getColumnModel().getColumn(2).setHeaderValue("Valor produto");
+            tabelaProduto.getColumnModel().getColumn(3).setHeaderValue("Descrição produto");
+            tabelaProduto.getColumnModel().getColumn(4).setHeaderValue("Tamanho");
+        }
 
-        jLabel92.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/tenis5.jpg"))); // NOI18N
+        panelProduto.add(tabela4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 90, 710, -1));
 
-        jLabel93.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel93.setText("R$ 359.99");
-
-        jLabel94.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel94.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel94.setText("<html>Salto alto bico fino preto e dourado. Ultra chique.<html>");
-        jLabel94.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jLabel94.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
-
-        javax.swing.GroupLayout tenis5Layout = new javax.swing.GroupLayout(tenis5);
-        tenis5.setLayout(tenis5Layout);
-        tenis5Layout.setHorizontalGroup(
-            tenis5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(tenis5Layout.createSequentialGroup()
-                .addGroup(tenis5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel92)
-                    .addComponent(jLabel93)
-                    .addComponent(jLabel94, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 20, Short.MAX_VALUE))
-        );
-        tenis5Layout.setVerticalGroup(
-            tenis5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, tenis5Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jLabel92)
-                .addGap(10, 10, 10)
-                .addComponent(jLabel93)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel94, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
-        );
-
-        jPanel5.add(tenis5, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 80, 200, 340));
-
-        tenis6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        tenis6.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                tenis6MouseClicked(evt);
+        atualizaProd.setBackground(new java.awt.Color(204, 204, 255));
+        atualizaProd.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        atualizaProd.setForeground(new java.awt.Color(0, 0, 204));
+        atualizaProd.setText("Atualizar produto");
+        atualizaProd.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                atualizaProdActionPerformed(evt);
             }
         });
-        tenis6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        panelProduto.add(atualizaProd, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 530, 210, 50));
 
-        jLabel95.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/tenis6.jpg"))); // NOI18N
-        tenis6.add(jLabel95, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        getContentPane().add(panelProduto, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 90, 1210, 600));
 
-        jLabel96.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel96.setText("R$ 119.90");
-        tenis6.add(jLabel96, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
+        panelCarrinho.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel97.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel97.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel97.setText("<html>Tênis próprio para corrida. Voe com eles.<html>");
-        jLabel97.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jLabel97.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
-        tenis6.add(jLabel97, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 180, -1));
+        pagamentoPanel.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
+        pagamentoPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel5.add(tenis6, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 460, 180, 350));
+        apresentacao.setBackground(new java.awt.Color(0, 0, 255));
+        apresentacao.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 32)); // NOI18N
+        apresentacao.setForeground(new java.awt.Color(102, 102, 255));
+        apresentacao.setText("Vamos finalizar, ");
+        pagamentoPanel.add(apresentacao, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 520, 40));
 
-        tenis7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        tenis7.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                tenis7MouseClicked(evt);
+        total1.setBackground(new java.awt.Color(0, 0, 255));
+        total1.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 36)); // NOI18N
+        total1.setForeground(new java.awt.Color(102, 102, 255));
+        total1.setText("Valor da compra:");
+        pagamentoPanel.add(total1, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 20, 500, 40));
+
+        total.setBackground(new java.awt.Color(0, 0, 255));
+        total.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 24)); // NOI18N
+        total.setForeground(new java.awt.Color(0, 102, 0));
+        total.setText("Valor da compra:");
+        pagamentoPanel.add(total, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 350, 500, 40));
+        pagamentoPanel.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 130, -1, -1));
+
+        jLabel143.setIcon(new javax.swing.ImageIcon(getClass().getResource("/splashScreen/como-convencer-cliente-a-comprar_Easy-Resize.com__1_-removebg-preview.png"))); // NOI18N
+        pagamentoPanel.add(jLabel143, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 110, 330, 210));
+
+        comprar.setBackground(new java.awt.Color(204, 255, 204));
+        comprar.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        comprar.setForeground(new java.awt.Color(51, 153, 0));
+        comprar.setText("Comprar");
+        comprar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                comprarActionPerformed(evt);
             }
         });
-        tenis7.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        pagamentoPanel.add(comprar, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 430, 150, 60));
 
-        jLabel98.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/tenis7.jpg"))); // NOI18N
-        tenis7.add(jLabel98, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 160, -1));
-
-        jLabel99.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel99.setText("R$ 121.90");
-        tenis7.add(jLabel99, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
-
-        jLabel100.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel100.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel100.setText("<html>Tênis casual modelo único branco e verde.<html>");
-        jLabel100.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jLabel100.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
-        tenis7.add(jLabel100, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 290, 180, 60));
-
-        jPanel5.add(tenis7, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 460, 190, 350));
-
-        tenis8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        tenis8.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                tenis8MouseClicked(evt);
+        jButton4.setBackground(new java.awt.Color(255, 153, 153));
+        jButton4.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jButton4.setForeground(new java.awt.Color(255, 0, 0));
+        jButton4.setText("Cancelar");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
             }
         });
-        tenis8.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        pagamentoPanel.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 430, 150, 60));
 
-        jLabel101.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/tenis8.jpg"))); // NOI18N
-        tenis8.add(jLabel101, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 160, -1));
+        panelCarrinho.add(pagamentoPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 10, 540, 550));
 
-        jLabel102.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel102.setText("R$ 79.90");
-        tenis8.add(jLabel102, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
+        tabelaCarrinho.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
 
-        jLabel103.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel103.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel103.setText("<html>Sandália colorida modelo infantil.<html>");
-        jLabel103.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jLabel103.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
-        tenis8.add(jLabel103, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 290, 180, 60));
+            },
+            new String [] {
+                "Nome produto", "Valor produto", "Descrição produto", "Quantidade produto", "Valor total"
+            }
+        ) {
+            Class[] types = new Class [] {
+                java.lang.String.class, java.lang.Double.class, java.lang.String.class, java.lang.String.class, java.lang.Double.class
+            };
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false
+            };
 
-        jPanel5.add(tenis8, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 460, 200, 350));
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
 
-        tenis9.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        tenis9.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                tenis9MouseClicked(evt);
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
             }
         });
-        tenis9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        tabelaCarrinho.setRowHeight(60);
+        tabelaCarrinho.setShowGrid(false);
+        tabela.setViewportView(tabelaCarrinho);
+        tabelaCarrinho.getColumnModel().getSelectionModel().setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
+        if (tabelaCarrinho.getColumnModel().getColumnCount() > 0) {
+            tabelaCarrinho.getColumnModel().getColumn(1).setHeaderValue("Valor produto");
+            tabelaCarrinho.getColumnModel().getColumn(2).setHeaderValue("Descrição produto");
+            tabelaCarrinho.getColumnModel().getColumn(3).setHeaderValue("Tamanho");
+            tabelaCarrinho.getColumnModel().getColumn(4).setHeaderValue("Valor total");
+        }
 
-        jLabel104.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/tenis9.jpg"))); // NOI18N
-        tenis9.add(jLabel104, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 160, -1));
+        panelCarrinho.add(tabela, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 100, 1070, -1));
 
-        jLabel105.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel105.setText("R$ 219.90");
-        tenis9.add(jLabel105, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
-
-        jLabel106.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel106.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel106.setText("<html>Chuteira futsal masculino.<html>");
-        jLabel106.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jLabel106.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
-        tenis9.add(jLabel106, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 290, 130, 50));
-
-        jPanel5.add(tenis9, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 460, 180, 340));
-
-        tenis10.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        tenis10.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                tenis10MouseClicked(evt);
+        aumentarQTD.setBackground(new java.awt.Color(204, 204, 255));
+        aumentarQTD.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        aumentarQTD.setForeground(new java.awt.Color(0, 0, 153));
+        aumentarQTD.setText("Aumentar quantidade");
+        aumentarQTD.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                aumentarQTDActionPerformed(evt);
             }
         });
-        tenis10.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        panelCarrinho.add(aumentarQTD, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 540, 220, 50));
 
-        jLabel107.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/tenis10.jpg"))); // NOI18N
-        tenis10.add(jLabel107, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 160, -1));
+        totall.setBackground(new java.awt.Color(0, 0, 255));
+        totall.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 36)); // NOI18N
+        totall.setForeground(new java.awt.Color(102, 102, 255));
+        totall.setText("Valor da compra:");
+        panelCarrinho.add(totall, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 20, 530, 40));
 
-        jLabel108.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel108.setText("R$ 399.99");
-        tenis10.add(jLabel108, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
+        jLabel145.setBackground(new java.awt.Color(0, 0, 255));
+        jLabel145.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 36)); // NOI18N
+        jLabel145.setForeground(new java.awt.Color(102, 102, 255));
+        jLabel145.setText("Carrinho de compras");
+        panelCarrinho.add(jLabel145, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, 370, 40));
 
-        jLabel109.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel109.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel109.setText("<html>Chuteira futebol modelo original laranja e rosa.<html>");
-        jLabel109.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jLabel109.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
-        tenis10.add(jLabel109, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 290, 180, 60));
-
-        jPanel5.add(tenis10, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 460, 180, 360));
-
-        tenis11.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        tenis11.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                tenis11MouseClicked(evt);
+        finalizarCompra.setBackground(new java.awt.Color(204, 255, 204));
+        finalizarCompra.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        finalizarCompra.setForeground(new java.awt.Color(0, 102, 0));
+        finalizarCompra.setText("Finalizar compra");
+        finalizarCompra.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                finalizarCompraActionPerformed(evt);
             }
         });
-        tenis11.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        panelCarrinho.add(finalizarCompra, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 540, 210, 50));
 
-        jLabel110.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/promo.jpg"))); // NOI18N
-        tenis11.add(jLabel110, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
-
-        jLabel111.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel111.setText("R$ 69.90");
-        tenis11.add(jLabel111, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
-
-        jLabel112.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel112.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel112.setText("<html>Promoção tênis casual chique.<html>");
-        jLabel112.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jLabel112.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
-        tenis11.add(jLabel112, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 180, 40));
-
-        jPanel5.add(tenis11, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 900, 190, 350));
-
-        tenis12.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        tenis12.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                tenis12MouseClicked(evt);
+        excluirItem.setBackground(new java.awt.Color(255, 153, 153));
+        excluirItem.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        excluirItem.setForeground(new java.awt.Color(255, 0, 0));
+        excluirItem.setText("Excluir item");
+        excluirItem.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                excluirItemActionPerformed(evt);
             }
         });
-        tenis12.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        panelCarrinho.add(excluirItem, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 540, 210, 50));
 
-        jLabel113.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/promo2.jpg"))); // NOI18N
-        tenis12.add(jLabel113, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
-
-        jLabel114.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel114.setText("R$ 159.90");
-        tenis12.add(jLabel114, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
-
-        jLabel115.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel115.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel115.setText("<html>Tênis casual e atlético nike. Preto e branco<html>");
-        jLabel115.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jLabel115.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
-        tenis12.add(jLabel115, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 170, 40));
-
-        jPanel5.add(tenis12, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 900, 170, 350));
-
-        tenis13.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        tenis13.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                tenis13MouseClicked(evt);
+        diminuirQTD.setBackground(new java.awt.Color(204, 204, 255));
+        diminuirQTD.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        diminuirQTD.setForeground(new java.awt.Color(0, 0, 153));
+        diminuirQTD.setText("Diminuir quantidade");
+        diminuirQTD.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                diminuirQTDActionPerformed(evt);
             }
         });
-        tenis13.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        panelCarrinho.add(diminuirQTD, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 540, 210, 50));
 
-        jLabel116.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/promo3.jpg"))); // NOI18N
-        tenis13.add(jLabel116, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        qtdNew.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        qtdNew.setText("1");
+        qtdNew.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        qtdNew.setPlaceholder("QTD");
+        panelCarrinho.add(qtdNew, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 540, 60, 50));
 
-        jLabel117.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel117.setText("R$ 170.90");
-        tenis13.add(jLabel117, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
+        getContentPane().add(panelCarrinho, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 90, 1210, 600));
 
-        jLabel118.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel118.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel118.setText("<html>Chuteira vermelha futebol em promoção relâmpago.<html>");
-        jLabel118.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jLabel118.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
-        tenis13.add(jLabel118, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 180, 40));
+        panelReclamacao.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel5.add(tenis13, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 900, 180, 350));
+        tabelaReclamacao.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
 
-        tenis14.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        tenis14.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                tenis14MouseClicked(evt);
+            },
+            new String [] {
+                "Id", "Assunto", "Mensagem", "Usuário"
+            }
+        ) {
+            Class[] types = new Class [] {
+                java.lang.Integer.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
+            };
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false
+            };
+
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
             }
         });
-        tenis14.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        tabelaReclamacao.setRowHeight(60);
+        tabelaReclamacao.setShowGrid(false);
+        tabela3.setViewportView(tabelaReclamacao);
+        tabelaReclamacao.getColumnModel().getSelectionModel().setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
 
-        jLabel119.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/promo4.jpg"))); // NOI18N
-        tenis14.add(jLabel119, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        panelReclamacao.add(tabela3, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 80, 850, -1));
 
-        jLabel120.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel120.setText("R$ 119.90");
-        tenis14.add(jLabel120, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
+        jLabel181.setBackground(new java.awt.Color(0, 0, 255));
+        jLabel181.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 36)); // NOI18N
+        jLabel181.setForeground(new java.awt.Color(102, 102, 255));
+        jLabel181.setText("Reclamações");
+        panelReclamacao.add(jLabel181, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 20, 370, 40));
 
-        jLabel121.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel121.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel121.setText("<html>Sapatilha em promoção. Cores azuis e roxo com laranja.<html>");
-        jLabel121.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jLabel121.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
-        tenis14.add(jLabel121, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 180, 60));
-
-        jPanel5.add(tenis14, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 900, 180, -1));
-
-        tenis15.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        tenis15.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                tenis15MouseClicked(evt);
+        excluirReclamacao.setBackground(new java.awt.Color(255, 204, 204));
+        excluirReclamacao.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        excluirReclamacao.setForeground(new java.awt.Color(255, 0, 0));
+        excluirReclamacao.setText("Excluir reclamação");
+        excluirReclamacao.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                excluirReclamacaoActionPerformed(evt);
             }
         });
-        tenis15.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        panelReclamacao.add(excluirReclamacao, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 520, 230, 50));
 
-        jLabel122.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/promo5.jpg"))); // NOI18N
-        tenis15.add(jLabel122, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        getContentPane().add(panelReclamacao, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 90, 1210, 610));
 
-        jLabel123.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel123.setText("R$ 289.90");
-        tenis15.add(jLabel123, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
+        panelModa.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel124.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel124.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel124.setText("<html>Tênis air force preto e rosa. Modelo de lançamento.<html>");
-        jLabel124.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jLabel124.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
-        tenis15.add(jLabel124, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 290, 180, 60));
+        tabelaModa.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
 
-        jPanel5.add(tenis15, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 900, 180, 360));
+            },
+            new String [] {
+                "Id produto", "Nome produto", "Valor produto", "Descrição produto", "Tamanho"
+            }
+        ) {
+            Class[] types = new Class [] {
+                java.lang.Integer.class, java.lang.String.class, java.lang.Double.class, java.lang.String.class, java.lang.String.class
+            };
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false
+            };
 
-        tenis16.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        tenis16.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                tenis16MouseClicked(evt);
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
             }
         });
-        tenis16.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        tabelaModa.setRowHeight(60);
+        tabelaModa.setShowGrid(false);
+        tabela2.setViewportView(tabelaModa);
+        tabelaModa.getColumnModel().getSelectionModel().setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
+        if (tabelaModa.getColumnModel().getColumnCount() > 0) {
+            tabelaModa.getColumnModel().getColumn(2).setHeaderValue("Valor produto");
+            tabelaModa.getColumnModel().getColumn(3).setHeaderValue("Descrição produto");
+            tabelaModa.getColumnModel().getColumn(4).setHeaderValue("Tamanho");
+        }
 
-        jLabel125.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/new.jpg"))); // NOI18N
-        tenis16.add(jLabel125, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        panelModa.add(tabela2, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 100, 850, -1));
 
-        jLabel126.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel126.setText("R$ 299.90");
-        tenis16.add(jLabel126, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
-
-        jLabel127.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel127.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel127.setText("<html>Tênis basquete lançamento colorido.<html>");
-        jLabel127.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jLabel127.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
-        tenis16.add(jLabel127, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 180, 40));
-
-        jPanel5.add(tenis16, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 1350, 190, 350));
-
-        tenis17.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        tenis17.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                tenis17MouseClicked(evt);
+        MaisqtdProduto.setBackground(new java.awt.Color(204, 204, 255));
+        MaisqtdProduto.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        MaisqtdProduto.setForeground(new java.awt.Color(0, 0, 153));
+        MaisqtdProduto.setText("Aumentar quantidade");
+        MaisqtdProduto.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MaisqtdProdutoActionPerformed(evt);
             }
         });
-        tenis17.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        panelModa.add(MaisqtdProduto, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 540, 220, 50));
 
-        jLabel128.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/new2.jpg"))); // NOI18N
-        tenis17.add(jLabel128, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        jLabel180.setBackground(new java.awt.Color(0, 0, 255));
+        jLabel180.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 36)); // NOI18N
+        jLabel180.setForeground(new java.awt.Color(102, 102, 255));
+        jLabel180.setText("Moda atual 2023");
+        panelModa.add(jLabel180, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 20, 370, 40));
 
-        jLabel129.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel129.setText("R$ 239.90");
-        tenis17.add(jLabel129, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
-
-        jLabel130.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel130.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel130.setText("<html>Tênis esporte chique jordan. Preto, branco e dourado.<html>");
-        jLabel130.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jLabel130.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
-        tenis17.add(jLabel130, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 180, 40));
-
-        jPanel5.add(tenis17, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 1350, 180, 350));
-
-        tenis18.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        tenis18.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                tenis18MouseClicked(evt);
+        adicionar.setBackground(new java.awt.Color(204, 255, 204));
+        adicionar.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        adicionar.setForeground(new java.awt.Color(0, 102, 0));
+        adicionar.setText("Adicionar ao carrinho");
+        adicionar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                adicionarActionPerformed(evt);
             }
         });
-        tenis18.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        panelModa.add(adicionar, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 540, 220, 50));
 
-        jLabel131.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/new3.jpg"))); // NOI18N
-        tenis18.add(jLabel131, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
-
-        jLabel132.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel132.setText("R$ 129.99");
-        tenis18.add(jLabel132, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
-
-        jLabel133.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel133.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel133.setText("<html>Novidade double jordan. Azul e branco.<html>");
-        jLabel133.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jLabel133.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
-        tenis18.add(jLabel133, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 180, 40));
-
-        jPanel5.add(tenis18, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 1350, 180, 350));
-
-        tenis19.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        tenis19.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                tenis19MouseClicked(evt);
+        MenosqtdProduto.setBackground(new java.awt.Color(204, 204, 255));
+        MenosqtdProduto.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        MenosqtdProduto.setForeground(new java.awt.Color(0, 0, 153));
+        MenosqtdProduto.setText("Diminuir quantidade");
+        MenosqtdProduto.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MenosqtdProdutoActionPerformed(evt);
             }
         });
-        tenis19.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        panelModa.add(MenosqtdProduto, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 540, 210, 50));
 
-        jLabel134.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/new4.jpg"))); // NOI18N
-        tenis19.add(jLabel134, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        qtdProd.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        qtdProd.setText("1");
+        qtdProd.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        qtdProd.setPlaceholder("QTD");
+        panelModa.add(qtdProd, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 540, 60, 50));
 
-        jLabel135.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel135.setText("R$ 249.90");
-        tenis19.add(jLabel135, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
-
-        jLabel136.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel136.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel136.setText("<html>Tênis flamejante lançamento para basquete.<html>");
-        jLabel136.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jLabel136.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
-        tenis19.add(jLabel136, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 180, 40));
-
-        jPanel5.add(tenis19, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 1350, 190, 350));
-
-        tenis20.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        tenis20.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                tenis20MouseClicked(evt);
-            }
-        });
-        tenis20.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel137.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/new5.jpg"))); // NOI18N
-        tenis20.add(jLabel137, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
-
-        jLabel138.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel138.setText("R$ 139.90");
-        tenis20.add(jLabel138, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
-
-        jLabel139.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel139.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel139.setText("<html>Tênis casual esportivo branco, vermelho e laranja.<html>");
-        jLabel139.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jLabel139.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
-        tenis20.add(jLabel139, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 180, 60));
-
-        jPanel5.add(tenis20, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 1350, 200, 360));
-
-        panelTenis.setViewportView(jPanel5);
-
-        getContentPane().add(panelTenis, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 90, 1210, 600));
+        getContentPane().add(panelModa, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 90, 1210, 600));
 
         panelRoupa.setBorder(null);
         panelRoupa.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
@@ -1843,47 +1838,607 @@ public class HomePage extends javax.swing.JFrame {
 
         getContentPane().add(panelRoupa, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 90, 1210, 600));
 
-        panelMain.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        panelTenis.setBorder(null);
+        panelTenis.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        panelTenis.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+        panelTenis.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
-        jPanel11.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel167.setIcon(new javax.swing.ImageIcon(getClass().getResource("/splashScreen/565c42bb-5c6a-4039-bfa6-54c668347e7b-removebg-preview.png"))); // NOI18N
-        jPanel11.add(jLabel167, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 0, 320, 600));
+        jLabel34.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel34.setText("Ofertas imperdíveis");
+        jPanel5.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 830, -1, -1));
 
-        jLabel169.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel169.setText("Peças exclusivas e originais");
-        jPanel11.add(jLabel169, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 80, 320, 50));
+        jLabel14.setBackground(new java.awt.Color(0, 0, 255));
+        jLabel14.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 36)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(102, 102, 255));
+        jLabel14.setText("Tendências de hoje");
+        jPanel5.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, 330, 40));
 
-        jLabel170.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        jLabel170.setForeground(new java.awt.Color(255, 102, 0));
-        jLabel170.setText("Java");
-        jPanel11.add(jLabel170, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 30, 80, 50));
+        divider6.setBackground(new java.awt.Color(102, 102, 102));
 
-        jLabel171.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        jLabel171.setForeground(new java.awt.Color(102, 102, 255));
-        jLabel171.setText("- Center");
-        jPanel11.add(jLabel171, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 30, 150, 50));
+        javax.swing.GroupLayout divider6Layout = new javax.swing.GroupLayout(divider6);
+        divider6.setLayout(divider6Layout);
+        divider6Layout.setHorizontalGroup(
+            divider6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        divider6Layout.setVerticalGroup(
+            divider6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 3, Short.MAX_VALUE)
+        );
 
-        jLabel172.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel172.setText("<html>O incrível equilíbrio em tênis que te dão peso e força, aqueles que fazem você brilhar e aquilo que te deixa leve como uma nuvem.<html>");
-        jPanel11.add(jLabel172, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 190, 460, 80));
+        jPanel5.add(divider6, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 847, 390, 3));
 
-        jLabel174.setIcon(new javax.swing.ImageIcon(getClass().getResource("/splashScreen/0c417bd1-c8c6-4b35-957f-f5cb1d4361f1_Easy-Resize.com.jpg"))); // NOI18N
-        jPanel11.add(jLabel174, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 310, 160, 240));
+        divider7.setBackground(new java.awt.Color(102, 102, 102));
 
-        jLabel175.setIcon(new javax.swing.ImageIcon(getClass().getResource("/splashScreen/27b4072e-876b-4057-8845-d18e67f84956 (1)_Easy-Resize.com.jpg"))); // NOI18N
-        jPanel11.add(jLabel175, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 310, 160, 240));
+        javax.swing.GroupLayout divider7Layout = new javax.swing.GroupLayout(divider7);
+        divider7.setLayout(divider7Layout);
+        divider7Layout.setHorizontalGroup(
+            divider7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        divider7Layout.setVerticalGroup(
+            divider7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 3, Short.MAX_VALUE)
+        );
 
-        jLabel173.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel173.setText("<html>Modelos old school, lançamento, alternativos e muito mais. Tanta variação e qualidade você só encontra aqui.<html>");
-        jPanel11.add(jLabel173, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 130, 460, 60));
+        jPanel5.add(divider7, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 847, 360, 3));
 
-        jLabel176.setIcon(new javax.swing.ImageIcon(getClass().getResource("/splashScreen/02c188f7-190a-475d-a766-48ae845e8398_Easy-Resize.com (1).jpg"))); // NOI18N
-        jPanel11.add(jLabel176, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 310, 160, 240));
+        divider8.setBackground(new java.awt.Color(102, 102, 102));
 
-        panelMain.add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1210, 600));
+        javax.swing.GroupLayout divider8Layout = new javax.swing.GroupLayout(divider8);
+        divider8.setLayout(divider8Layout);
+        divider8Layout.setHorizontalGroup(
+            divider8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        divider8Layout.setVerticalGroup(
+            divider8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 3, Short.MAX_VALUE)
+        );
 
-        getContentPane().add(panelMain, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 90, 1250, 610));
+        jPanel5.add(divider8, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 1300, 400, 3));
+
+        jLabel79.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel79.setText("Novidades");
+        jPanel5.add(jLabel79, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 1280, -1, -1));
+
+        divider9.setBackground(new java.awt.Color(102, 102, 102));
+
+        javax.swing.GroupLayout divider9Layout = new javax.swing.GroupLayout(divider9);
+        divider9.setLayout(divider9Layout);
+        divider9Layout.setHorizontalGroup(
+            divider9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        divider9Layout.setVerticalGroup(
+            divider9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 3, Short.MAX_VALUE)
+        );
+
+        jPanel5.add(divider9, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 1300, 465, 3));
+
+        tenis1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        tenis1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tenis1MouseClicked(evt);
+            }
+        });
+        tenis1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel140.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/tenis1.jpg"))); // NOI18N
+        tenis1.add(jLabel140, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        jLabel141.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel141.setText("R$ 229.90");
+        tenis1.add(jLabel141, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
+
+        jLabel142.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel142.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel142.setText("<html>Promoção air force ultra realista. Edição limitada<html>");
+        jLabel142.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel142.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
+        tenis1.add(jLabel142, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 180, 40));
+
+        jPanel5.add(tenis1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 80, 190, 340));
+
+        tenis2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        tenis2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tenis2MouseClicked(evt);
+            }
+        });
+        tenis2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel83.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/tenis2.jpg"))); // NOI18N
+        tenis2.add(jLabel83, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 160, -1));
+
+        jLabel84.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel84.setText("R$ 139.90");
+        tenis2.add(jLabel84, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
+
+        jLabel85.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel85.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel85.setText("<html>Tênis jordan rosa e preto. Promoção dia das mulheres<html>");
+        jLabel85.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel85.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
+        tenis2.add(jLabel85, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 290, 180, 60));
+
+        jPanel5.add(tenis2, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 80, 180, 350));
+
+        tenis3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        tenis3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tenis3MouseClicked(evt);
+            }
+        });
+        tenis3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel86.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/tenis3.jpg"))); // NOI18N
+        tenis3.add(jLabel86, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 160, -1));
+
+        jLabel87.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel87.setText("R$ 259.90");
+        tenis3.add(jLabel87, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
+
+        jLabel88.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel88.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel88.setText("<html>Tênis asics promoção. Focado em esportes.<html>");
+        jLabel88.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel88.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
+        tenis3.add(jLabel88, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 180, 40));
+
+        jPanel5.add(tenis3, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 80, 190, 340));
+
+        tenis4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        tenis4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tenis4MouseClicked(evt);
+            }
+        });
+
+        jLabel89.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/tenis4.jpg"))); // NOI18N
+
+        jLabel90.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel90.setText("R$ 299.90");
+
+        jLabel91.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel91.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel91.setText("<html>Tênis atualidade amarelo double nike.<html>");
+        jLabel91.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel91.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
+
+        javax.swing.GroupLayout tenis4Layout = new javax.swing.GroupLayout(tenis4);
+        tenis4.setLayout(tenis4Layout);
+        tenis4Layout.setHorizontalGroup(
+            tenis4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(tenis4Layout.createSequentialGroup()
+                .addGroup(tenis4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel91, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel89)
+                    .addComponent(jLabel90))
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+        tenis4Layout.setVerticalGroup(
+            tenis4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, tenis4Layout.createSequentialGroup()
+                .addComponent(jLabel89)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel90)
+                .addGap(12, 12, 12)
+                .addComponent(jLabel91, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+
+        jPanel5.add(tenis4, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 80, 180, 340));
+
+        tenis5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        tenis5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tenis5MouseClicked(evt);
+            }
+        });
+
+        jLabel92.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/tenis5.jpg"))); // NOI18N
+
+        jLabel93.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel93.setText("R$ 359.99");
+
+        jLabel94.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel94.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel94.setText("<html>Salto alto bico fino preto e dourado. Ultra chique.<html>");
+        jLabel94.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel94.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
+
+        javax.swing.GroupLayout tenis5Layout = new javax.swing.GroupLayout(tenis5);
+        tenis5.setLayout(tenis5Layout);
+        tenis5Layout.setHorizontalGroup(
+            tenis5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(tenis5Layout.createSequentialGroup()
+                .addGroup(tenis5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel92)
+                    .addComponent(jLabel93)
+                    .addComponent(jLabel94, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 20, Short.MAX_VALUE))
+        );
+        tenis5Layout.setVerticalGroup(
+            tenis5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, tenis5Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jLabel92)
+                .addGap(10, 10, 10)
+                .addComponent(jLabel93)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel94, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+
+        jPanel5.add(tenis5, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 80, 200, 340));
+
+        tenis6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        tenis6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tenis6MouseClicked(evt);
+            }
+        });
+        tenis6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel95.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/tenis6.jpg"))); // NOI18N
+        tenis6.add(jLabel95, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        jLabel96.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel96.setText("R$ 119.90");
+        tenis6.add(jLabel96, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
+
+        jLabel97.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel97.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel97.setText("<html>Tênis próprio para corrida. Voe com eles.<html>");
+        jLabel97.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel97.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
+        tenis6.add(jLabel97, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 180, -1));
+
+        jPanel5.add(tenis6, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 460, 180, 350));
+
+        tenis7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        tenis7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tenis7MouseClicked(evt);
+            }
+        });
+        tenis7.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel98.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/tenis7.jpg"))); // NOI18N
+        tenis7.add(jLabel98, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 160, -1));
+
+        jLabel99.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel99.setText("R$ 121.90");
+        tenis7.add(jLabel99, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
+
+        jLabel100.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel100.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel100.setText("<html>Tênis casual modelo único branco e verde.<html>");
+        jLabel100.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel100.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
+        tenis7.add(jLabel100, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 290, 180, 60));
+
+        jPanel5.add(tenis7, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 460, 190, 350));
+
+        tenis8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        tenis8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tenis8MouseClicked(evt);
+            }
+        });
+        tenis8.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel101.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/tenis8.jpg"))); // NOI18N
+        tenis8.add(jLabel101, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 160, -1));
+
+        jLabel102.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel102.setText("R$ 79.90");
+        tenis8.add(jLabel102, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
+
+        jLabel103.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel103.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel103.setText("<html>Sandália colorida modelo infantil.<html>");
+        jLabel103.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel103.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
+        tenis8.add(jLabel103, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 290, 180, 60));
+
+        jPanel5.add(tenis8, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 460, 200, 350));
+
+        tenis9.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        tenis9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tenis9MouseClicked(evt);
+            }
+        });
+        tenis9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel104.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/tenis9.jpg"))); // NOI18N
+        tenis9.add(jLabel104, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 160, -1));
+
+        jLabel105.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel105.setText("R$ 219.90");
+        tenis9.add(jLabel105, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
+
+        jLabel106.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel106.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel106.setText("<html>Chuteira futsal masculino.<html>");
+        jLabel106.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel106.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
+        tenis9.add(jLabel106, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 290, 130, 50));
+
+        jPanel5.add(tenis9, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 460, 180, 340));
+
+        tenis10.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        tenis10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tenis10MouseClicked(evt);
+            }
+        });
+        tenis10.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel107.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/tenis10.jpg"))); // NOI18N
+        tenis10.add(jLabel107, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 160, -1));
+
+        jLabel108.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel108.setText("R$ 399.99");
+        tenis10.add(jLabel108, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
+
+        jLabel109.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel109.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel109.setText("<html>Chuteira futebol modelo original laranja e rosa.<html>");
+        jLabel109.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel109.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
+        tenis10.add(jLabel109, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 290, 180, 60));
+
+        jPanel5.add(tenis10, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 460, 180, 360));
+
+        tenis11.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        tenis11.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tenis11MouseClicked(evt);
+            }
+        });
+        tenis11.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel110.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/promo.jpg"))); // NOI18N
+        tenis11.add(jLabel110, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        jLabel111.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel111.setText("R$ 69.90");
+        tenis11.add(jLabel111, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
+
+        jLabel112.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel112.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel112.setText("<html>Promoção tênis casual chique.<html>");
+        jLabel112.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel112.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
+        tenis11.add(jLabel112, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 180, 40));
+
+        jPanel5.add(tenis11, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 900, 190, 350));
+
+        tenis12.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        tenis12.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tenis12MouseClicked(evt);
+            }
+        });
+        tenis12.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel113.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/promo2.jpg"))); // NOI18N
+        tenis12.add(jLabel113, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        jLabel114.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel114.setText("R$ 159.90");
+        tenis12.add(jLabel114, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
+
+        jLabel115.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel115.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel115.setText("<html>Tênis casual e atlético nike. Preto e branco<html>");
+        jLabel115.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel115.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
+        tenis12.add(jLabel115, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 170, 40));
+
+        jPanel5.add(tenis12, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 900, 170, 350));
+
+        tenis13.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        tenis13.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tenis13MouseClicked(evt);
+            }
+        });
+        tenis13.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel116.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/promo3.jpg"))); // NOI18N
+        tenis13.add(jLabel116, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        jLabel117.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel117.setText("R$ 170.90");
+        tenis13.add(jLabel117, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
+
+        jLabel118.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel118.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel118.setText("<html>Chuteira vermelha futebol em promoção relâmpago.<html>");
+        jLabel118.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel118.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
+        tenis13.add(jLabel118, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 180, 40));
+
+        jPanel5.add(tenis13, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 900, 180, 350));
+
+        tenis14.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        tenis14.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tenis14MouseClicked(evt);
+            }
+        });
+        tenis14.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel119.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/promo4.jpg"))); // NOI18N
+        tenis14.add(jLabel119, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        jLabel120.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel120.setText("R$ 119.90");
+        tenis14.add(jLabel120, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
+
+        jLabel121.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel121.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel121.setText("<html>Sapatilha em promoção. Cores azuis e roxo com laranja.<html>");
+        jLabel121.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel121.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
+        tenis14.add(jLabel121, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 180, 60));
+
+        jPanel5.add(tenis14, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 900, 180, -1));
+
+        tenis15.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        tenis15.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tenis15MouseClicked(evt);
+            }
+        });
+        tenis15.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel122.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/promo5.jpg"))); // NOI18N
+        tenis15.add(jLabel122, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        jLabel123.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel123.setText("R$ 289.90");
+        tenis15.add(jLabel123, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
+
+        jLabel124.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel124.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel124.setText("<html>Tênis air force preto e rosa. Modelo de lançamento.<html>");
+        jLabel124.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel124.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
+        tenis15.add(jLabel124, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 290, 180, 60));
+
+        jPanel5.add(tenis15, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 900, 180, 360));
+
+        tenis16.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        tenis16.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tenis16MouseClicked(evt);
+            }
+        });
+        tenis16.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel125.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/new.jpg"))); // NOI18N
+        tenis16.add(jLabel125, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        jLabel126.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel126.setText("R$ 299.90");
+        tenis16.add(jLabel126, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
+
+        jLabel127.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel127.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel127.setText("<html>Tênis basquete lançamento colorido.<html>");
+        jLabel127.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel127.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
+        tenis16.add(jLabel127, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 180, 40));
+
+        jPanel5.add(tenis16, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 1350, 190, 350));
+
+        tenis17.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        tenis17.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tenis17MouseClicked(evt);
+            }
+        });
+        tenis17.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel128.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/new2.jpg"))); // NOI18N
+        tenis17.add(jLabel128, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        jLabel129.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel129.setText("R$ 239.90");
+        tenis17.add(jLabel129, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
+
+        jLabel130.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel130.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel130.setText("<html>Tênis esporte chique jordan. Preto, branco e dourado.<html>");
+        jLabel130.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel130.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
+        tenis17.add(jLabel130, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 180, 40));
+
+        jPanel5.add(tenis17, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 1350, 180, 350));
+
+        tenis18.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        tenis18.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tenis18MouseClicked(evt);
+            }
+        });
+        tenis18.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel131.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/new3.jpg"))); // NOI18N
+        tenis18.add(jLabel131, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        jLabel132.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel132.setText("R$ 129.99");
+        tenis18.add(jLabel132, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
+
+        jLabel133.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel133.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel133.setText("<html>Novidade double jordan. Azul e branco.<html>");
+        jLabel133.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel133.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
+        tenis18.add(jLabel133, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 180, 40));
+
+        jPanel5.add(tenis18, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 1350, 180, 350));
+
+        tenis19.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        tenis19.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tenis19MouseClicked(evt);
+            }
+        });
+        tenis19.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel134.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/new4.jpg"))); // NOI18N
+        tenis19.add(jLabel134, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        jLabel135.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel135.setText("R$ 249.90");
+        tenis19.add(jLabel135, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
+
+        jLabel136.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel136.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel136.setText("<html>Tênis flamejante lançamento para basquete.<html>");
+        jLabel136.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel136.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
+        tenis19.add(jLabel136, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 180, 40));
+
+        jPanel5.add(tenis19, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 1350, 190, 350));
+
+        tenis20.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        tenis20.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tenis20MouseClicked(evt);
+            }
+        });
+        tenis20.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel137.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jframe/images-shoes/new5.jpg"))); // NOI18N
+        tenis20.add(jLabel137, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        jLabel138.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel138.setText("R$ 139.90");
+        tenis20.add(jLabel138, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
+
+        jLabel139.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel139.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jLabel139.setText("<html>Tênis casual esportivo branco, vermelho e laranja.<html>");
+        jLabel139.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel139.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
+        tenis20.add(jLabel139, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 180, 60));
+
+        jPanel5.add(tenis20, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 1350, 200, 360));
+
+        panelTenis.setViewportView(jPanel5);
+
+        getContentPane().add(panelTenis, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 90, 1210, 600));
 
         panelPerfil.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -1964,6 +2519,48 @@ public class HomePage extends javax.swing.JFrame {
         panelPerfil.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, 1000, 600));
 
         getContentPane().add(panelPerfil, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 90, 1210, 610));
+
+        panelMain.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel11.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel167.setIcon(new javax.swing.ImageIcon(getClass().getResource("/splashScreen/565c42bb-5c6a-4039-bfa6-54c668347e7b-removebg-preview.png"))); // NOI18N
+        jPanel11.add(jLabel167, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 0, 320, 600));
+
+        jLabel169.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel169.setText("Peças exclusivas e originais");
+        jPanel11.add(jLabel169, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 80, 320, 50));
+
+        jLabel170.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        jLabel170.setForeground(new java.awt.Color(255, 102, 0));
+        jLabel170.setText("Java");
+        jPanel11.add(jLabel170, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 30, 80, 50));
+
+        jLabel171.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        jLabel171.setForeground(new java.awt.Color(102, 102, 255));
+        jLabel171.setText("- Center");
+        jPanel11.add(jLabel171, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 30, 150, 50));
+
+        jLabel172.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel172.setText("<html>O incrível equilíbrio em tênis que te dão peso e força, aqueles que fazem você brilhar e aquilo que te deixa leve como uma nuvem.<html>");
+        jPanel11.add(jLabel172, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 190, 460, 80));
+
+        jLabel174.setIcon(new javax.swing.ImageIcon(getClass().getResource("/splashScreen/0c417bd1-c8c6-4b35-957f-f5cb1d4361f1_Easy-Resize.com.jpg"))); // NOI18N
+        jPanel11.add(jLabel174, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 310, 160, 240));
+
+        jLabel175.setIcon(new javax.swing.ImageIcon(getClass().getResource("/splashScreen/27b4072e-876b-4057-8845-d18e67f84956 (1)_Easy-Resize.com.jpg"))); // NOI18N
+        jPanel11.add(jLabel175, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 310, 160, 240));
+
+        jLabel173.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel173.setText("<html>Modelos old school, lançamento, alternativos e muito mais. Tanta variação e qualidade você só encontra aqui.<html>");
+        jPanel11.add(jLabel173, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 130, 460, 60));
+
+        jLabel176.setIcon(new javax.swing.ImageIcon(getClass().getResource("/splashScreen/02c188f7-190a-475d-a766-48ae845e8398_Easy-Resize.com (1).jpg"))); // NOI18N
+        jPanel11.add(jLabel176, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 310, 160, 240));
+
+        panelMain.add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1210, 600));
+
+        getContentPane().add(panelMain, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 90, 1250, 610));
 
         panelSac.setBackground(new java.awt.Color(204, 204, 255));
         panelSac.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(51, 0, 255)));
@@ -2124,149 +2721,6 @@ public class HomePage extends javax.swing.JFrame {
         panelAdm.add(excluirAdm, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 540, 220, 50));
 
         getContentPane().add(panelAdm, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 90, 1210, 600));
-
-        panelCarrinho.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        pagamentoPanel.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 204, 0), 2, true));
-        pagamentoPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        apresentacao.setBackground(new java.awt.Color(0, 0, 255));
-        apresentacao.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 32)); // NOI18N
-        apresentacao.setForeground(new java.awt.Color(102, 102, 255));
-        apresentacao.setText("Vamos finalizar, ");
-        pagamentoPanel.add(apresentacao, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 520, 40));
-
-        total1.setBackground(new java.awt.Color(0, 0, 255));
-        total1.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 36)); // NOI18N
-        total1.setForeground(new java.awt.Color(102, 102, 255));
-        total1.setText("Valor da compra:");
-        pagamentoPanel.add(total1, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 20, 500, 40));
-
-        total.setBackground(new java.awt.Color(0, 0, 255));
-        total.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 24)); // NOI18N
-        total.setForeground(new java.awt.Color(0, 102, 0));
-        total.setText("Valor da compra:");
-        pagamentoPanel.add(total, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 350, 500, 40));
-        pagamentoPanel.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 130, -1, -1));
-
-        jLabel143.setIcon(new javax.swing.ImageIcon(getClass().getResource("/splashScreen/como-convencer-cliente-a-comprar_Easy-Resize.com__1_-removebg-preview.png"))); // NOI18N
-        pagamentoPanel.add(jLabel143, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 110, 330, 210));
-
-        comprar.setBackground(new java.awt.Color(204, 255, 204));
-        comprar.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        comprar.setForeground(new java.awt.Color(51, 153, 0));
-        comprar.setText("Comprar");
-        comprar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                comprarActionPerformed(evt);
-            }
-        });
-        pagamentoPanel.add(comprar, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 430, 150, 60));
-
-        jButton4.setBackground(new java.awt.Color(255, 153, 153));
-        jButton4.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jButton4.setForeground(new java.awt.Color(255, 0, 0));
-        jButton4.setText("Cancelar");
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
-            }
-        });
-        pagamentoPanel.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 430, 150, 60));
-
-        panelCarrinho.add(pagamentoPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 10, 540, 550));
-
-        tabelaCarrinho.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-
-            },
-            new String [] {
-                "Nome produto", "Valor produto", "Descrição produto", "Quantidade produto", "Valor total"
-            }
-        ) {
-            Class[] types = new Class [] {
-                java.lang.String.class, java.lang.Double.class, java.lang.String.class, java.lang.String.class, java.lang.Double.class
-            };
-            boolean[] canEdit = new boolean [] {
-                false, false, false, false, false
-            };
-
-            public Class getColumnClass(int columnIndex) {
-                return types [columnIndex];
-            }
-
-            public boolean isCellEditable(int rowIndex, int columnIndex) {
-                return canEdit [columnIndex];
-            }
-        });
-        tabelaCarrinho.setRowHeight(60);
-        tabelaCarrinho.setShowGrid(false);
-        tabela.setViewportView(tabelaCarrinho);
-        tabelaCarrinho.getColumnModel().getSelectionModel().setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
-
-        panelCarrinho.add(tabela, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 100, 1070, -1));
-
-        aumentarQTD.setBackground(new java.awt.Color(204, 204, 255));
-        aumentarQTD.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        aumentarQTD.setForeground(new java.awt.Color(0, 0, 153));
-        aumentarQTD.setText("Aumentar quantidade");
-        aumentarQTD.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                aumentarQTDActionPerformed(evt);
-            }
-        });
-        panelCarrinho.add(aumentarQTD, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 540, 220, 50));
-
-        totall.setBackground(new java.awt.Color(0, 0, 255));
-        totall.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 36)); // NOI18N
-        totall.setForeground(new java.awt.Color(102, 102, 255));
-        totall.setText("Valor da compra:");
-        panelCarrinho.add(totall, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 20, 530, 40));
-
-        jLabel145.setBackground(new java.awt.Color(0, 0, 255));
-        jLabel145.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 36)); // NOI18N
-        jLabel145.setForeground(new java.awt.Color(102, 102, 255));
-        jLabel145.setText("Carrinho de compras");
-        panelCarrinho.add(jLabel145, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, 370, 40));
-
-        finalizarCompra.setBackground(new java.awt.Color(204, 255, 204));
-        finalizarCompra.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        finalizarCompra.setForeground(new java.awt.Color(0, 102, 0));
-        finalizarCompra.setText("Finalizar compra");
-        finalizarCompra.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                finalizarCompraActionPerformed(evt);
-            }
-        });
-        panelCarrinho.add(finalizarCompra, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 540, 210, 50));
-
-        excluirItem.setBackground(new java.awt.Color(255, 153, 153));
-        excluirItem.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        excluirItem.setForeground(new java.awt.Color(255, 0, 0));
-        excluirItem.setText("Excluir item");
-        excluirItem.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                excluirItemActionPerformed(evt);
-            }
-        });
-        panelCarrinho.add(excluirItem, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 540, 210, 50));
-
-        diminuirQTD.setBackground(new java.awt.Color(204, 204, 255));
-        diminuirQTD.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        diminuirQTD.setForeground(new java.awt.Color(0, 0, 153));
-        diminuirQTD.setText("Diminuir quantidade");
-        diminuirQTD.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                diminuirQTDActionPerformed(evt);
-            }
-        });
-        panelCarrinho.add(diminuirQTD, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 540, 210, 50));
-
-        qtdNew.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        qtdNew.setPlaceholder("QTD");
-        panelCarrinho.add(qtdNew, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 540, 60, 50));
-
-        getContentPane().add(panelCarrinho, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 90, 1210, 600));
 
         panelCliente.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -2486,14 +2940,23 @@ public class HomePage extends javax.swing.JFrame {
             || op5.getBackground().equals(new Color(204, 204, 204))
             || op6.getBackground().equals(new Color(204, 204, 204))
             || alterarCliente.getBackground().equals(new Color(204, 204, 204))
-            || alterarAdm.getBackground().equals(new Color(204, 204, 204))){
+            || alterarAdm.getBackground().equals(new Color(204, 204, 204))
+            || modaAtual.getBackground().equals(new Color(204, 204, 204))
+            || op7.getBackground().equals(new Color(204, 204, 204))
+            || opProd.getBackground().equals(new Color(204, 204, 204))){
             op2.setBackground(new java.awt.Color(102,102,255));
             op3.setBackground(new java.awt.Color(102,102,255));
             op4.setBackground(new java.awt.Color(102,102,255));
             op5.setBackground(new java.awt.Color(102,102,255));
             op6.setBackground(new java.awt.Color(102,102,255));
+            op7.setBackground(new java.awt.Color(102,102,255));
+            opProd.setBackground(new java.awt.Color(102,102,255));
+            panelProduto.setVisible(false);
+            panelReclamacao.setVisible(false);
             alterarCliente.setBackground(new java.awt.Color(102,102,255));
             alterarAdm.setBackground(new java.awt.Color(102,102,255));
+            modaAtual.setBackground(new java.awt.Color(102,102,255));
+            panelModa.setVisible(false);
             panelHistorico.setVisible(false);
             panelRoupa.setVisible(false);
             panelTenis.setVisible(false);
@@ -2506,6 +2969,8 @@ public class HomePage extends javax.swing.JFrame {
             op1.setBackground(new java.awt.Color(204, 204, 204));
             panelMain.setVisible(true);
             fechar();
+        }else{
+            JOptionPane.showMessageDialog(null, "Bugou");
         }
     }//GEN-LAST:event_op1MouseClicked
 
@@ -2519,14 +2984,23 @@ public class HomePage extends javax.swing.JFrame {
             || op4.getBackground().equals(new Color(204, 204, 204))
             || op6.getBackground().equals(new Color(204, 204, 204))
             || alterarCliente.getBackground().equals(new Color(204, 204, 204))
-            || alterarAdm.getBackground().equals(new Color(204, 204, 204))){
+            || alterarAdm.getBackground().equals(new Color(204, 204, 204))
+            || modaAtual.getBackground().equals(new Color(204, 204, 204))
+            || op7.getBackground().equals(new Color(204, 204, 204))
+            || opProd.getBackground().equals(new Color(204, 204, 204))){
             op1.setBackground(new java.awt.Color(102,102,255));
             op5.setBackground(new java.awt.Color(102,102,255));
             op3.setBackground(new java.awt.Color(102,102,255));
             op4.setBackground(new java.awt.Color(102,102,255));
             op6.setBackground(new java.awt.Color(102,102,255));
+            op7.setBackground(new java.awt.Color(102,102,255));
+            opProd.setBackground(new java.awt.Color(102,102,255));
+            panelProduto.setVisible(false);
+            panelReclamacao.setVisible(false);
             alterarCliente.setBackground(new java.awt.Color(102,102,255));
             alterarAdm.setBackground(new java.awt.Color(102,102,255));
+            modaAtual.setBackground(new java.awt.Color(102,102,255));
+            panelModa.setVisible(false);
             panelTenis.setVisible(false);
             panelHistorico.setVisible(false);
             panelCarrinho.setVisible(false);
@@ -2552,7 +3026,8 @@ public class HomePage extends javax.swing.JFrame {
             || op4.getBackground().equals(new Color(204, 204, 204))
             || op5.getBackground().equals(new Color(204, 204, 204))
             || alterarCliente.getBackground().equals(new Color(204, 204, 204))
-            || alterarAdm.getBackground().equals(new Color(204, 204, 204))){
+            || alterarAdm.getBackground().equals(new Color(204, 204, 204))
+            || modaAtual.getBackground().equals(new Color(204, 204, 204))){
             op1.setBackground(new java.awt.Color(102,102,255));
             op2.setBackground(new java.awt.Color(102,102,255));
             op3.setBackground(new java.awt.Color(102,102,255));
@@ -2560,6 +3035,8 @@ public class HomePage extends javax.swing.JFrame {
             op5.setBackground(new java.awt.Color(102,102,255));
             alterarCliente.setBackground(new java.awt.Color(102,102,255));
             alterarAdm.setBackground(new java.awt.Color(102,102,255));
+            modaAtual.setBackground(new java.awt.Color(102,102,255));
+            panelModa.setVisible(false);
             panelHistorico.setVisible(false);
             panelRoupa.setVisible(false);
             panelTenis.setVisible(false);
@@ -2583,12 +3060,16 @@ public class HomePage extends javax.swing.JFrame {
             || op2.getBackground().equals(new Color(204, 204, 204))
             || op3.getBackground().equals(new Color(204, 204, 204))
             || op5.getBackground().equals(new Color(204, 204, 204))
-            || op6.getBackground().equals(new Color(204, 204, 204))){
+            || op6.getBackground().equals(new Color(204, 204, 204))
+            || modaAtual.getBackground().equals(new Color(204, 204, 204))){
             op1.setBackground(new java.awt.Color(102,102,255));
             op2.setBackground(new java.awt.Color(102,102,255));
             op3.setBackground(new java.awt.Color(102,102,255));
             op5.setBackground(new java.awt.Color(102,102,255));
             op6.setBackground(new java.awt.Color(102,102,255));
+            modaAtual.setBackground(new java.awt.Color(102,102,255));
+            panelModa.setVisible(false);
+            panelModa.setVisible(false);
             panelRoupa.setVisible(false);
             panelTenis.setVisible(false);
             panelCarrinho.setVisible(false);
@@ -2613,14 +3094,23 @@ public class HomePage extends javax.swing.JFrame {
             || op4.getBackground().equals(new Color(204, 204, 204))
             || op6.getBackground().equals(new Color(204, 204, 204))
             || alterarCliente.getBackground().equals(new Color(204, 204, 204))
-            || alterarAdm.getBackground().equals(new Color(204, 204, 204))){
+            || alterarAdm.getBackground().equals(new Color(204, 204, 204))
+            || modaAtual.getBackground().equals(new Color(204, 204, 204))
+            || op7.getBackground().equals(new Color(204, 204, 204))
+            || opProd.getBackground().equals(new Color(204, 204, 204))){
             op1.setBackground(new java.awt.Color(102,102,255));
             op2.setBackground(new java.awt.Color(102,102,255));
             op5.setBackground(new java.awt.Color(102,102,255));
             op4.setBackground(new java.awt.Color(102,102,255));
             op6.setBackground(new java.awt.Color(102,102,255));
+            op7.setBackground(new java.awt.Color(102,102,255));
+            opProd.setBackground(new java.awt.Color(102,102,255));
+            panelProduto.setVisible(false);
+            panelReclamacao.setVisible(false);
             alterarCliente.setBackground(new java.awt.Color(102,102,255));
             alterarAdm.setBackground(new java.awt.Color(102,102,255));
+            modaAtual.setBackground(new java.awt.Color(102,102,255));
+            panelModa.setVisible(false);
             panelRoupa.setVisible(false);
             panelHistorico.setVisible(false);
             panelCarrinho.setVisible(false);
@@ -2743,12 +3233,15 @@ public class HomePage extends javax.swing.JFrame {
             || op2.getBackground().equals(new Color(204, 204, 204))
             || op3.getBackground().equals(new Color(204, 204, 204))
             || op4.getBackground().equals(new Color(204, 204, 204))
-            || op6.getBackground().equals(new Color(204, 204, 204))){
+            || op6.getBackground().equals(new Color(204, 204, 204))
+            || modaAtual.getBackground().equals(new Color(204, 204, 204))){
             op1.setBackground(new java.awt.Color(102,102,255));
             op2.setBackground(new java.awt.Color(102,102,255));
             op3.setBackground(new java.awt.Color(102,102,255));
             op4.setBackground(new java.awt.Color(102,102,255));
             op6.setBackground(new java.awt.Color(102,102,255));
+            modaAtual.setBackground(new java.awt.Color(102,102,255));
+            panelModa.setVisible(false);
             panelHistorico.setVisible(false);
             panelRoupa.setVisible(false);
             panelTenis.setVisible(false);
@@ -3262,7 +3755,6 @@ public class HomePage extends javax.swing.JFrame {
         }else{
             JOptionPane.showMessageDialog(this, "Parece que você não tem nada selecionado!");
         }
-        
     }
     
     private void diminuirQTDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_diminuirQTDActionPerformed
@@ -3346,12 +3838,20 @@ public class HomePage extends javax.swing.JFrame {
             || op2.getBackground().equals(new Color(204, 204, 204))
             || op3.getBackground().equals(new Color(204, 204, 204))
             || op6.getBackground().equals(new Color(204, 204, 204))
-            || alterarAdm.getBackground().equals(new Color(204,204,204))){
+            || alterarAdm.getBackground().equals(new Color(204,204,204))
+            || op7.getBackground().equals(new Color(204,204,204))
+            || opProd.getBackground().equals(new Color(204,204,204))){
             op1.setBackground(new java.awt.Color(102,102,255));
             op2.setBackground(new java.awt.Color(102,102,255));
             op3.setBackground(new java.awt.Color(102,102,255));
             op6.setBackground(new java.awt.Color(102,102,255));
+            op7.setBackground(new java.awt.Color(102,102,255));
+            opProd.setBackground(new java.awt.Color(102,102,255));
+            panelProduto.setVisible(false);
+            panelReclamacao.setVisible(false);
             alterarAdm.setBackground(new java.awt.Color(102,102,255));
+            modaAtual.setBackground(new java.awt.Color(102,102,255));
+            panelModa.setVisible(false);
             panelRoupa.setVisible(false);
             panelTenis.setVisible(false);
             panelHistorico.setVisible(false);
@@ -3409,12 +3909,20 @@ public class HomePage extends javax.swing.JFrame {
             || op2.getBackground().equals(new Color(204, 204, 204))
             || op3.getBackground().equals(new Color(204, 204, 204))
             || op6.getBackground().equals(new Color(204, 204, 204))
-            || alterarCliente.getBackground().equals(new Color(204,204,204))){
+            || alterarCliente.getBackground().equals(new Color(204,204,204))
+            || op7.getBackground().equals(new Color(204,204,204))
+            || opProd.getBackground().equals(new Color(204,204,204))){
             op1.setBackground(new java.awt.Color(102,102,255));
             op2.setBackground(new java.awt.Color(102,102,255));
             op3.setBackground(new java.awt.Color(102,102,255));
             op6.setBackground(new java.awt.Color(102,102,255));
+            op7.setBackground(new java.awt.Color(102,102,255));
+            opProd.setBackground(new java.awt.Color(102,102,255));
+            panelProduto.setVisible(false);
+            panelReclamacao.setVisible(false);
             alterarCliente.setBackground(new java.awt.Color(102,102,255));
+            modaAtual.setBackground(new java.awt.Color(102,102,255));
+            panelModa.setVisible(false);
             panelRoupa.setVisible(false);
             panelTenis.setVisible(false);
             panelHistorico.setVisible(false);
@@ -3606,10 +4114,10 @@ public class HomePage extends javax.swing.JFrame {
     }
         
     public void inserirCliente(){
-        String nome = txtUserName.getText();
-        String email = txtUserEmail.getText();
-        String senha = txtUserPass.getText();
-        String telefone = txtUserTel.getText();
+        String nome = txtUserName.getText().trim();
+        String email = txtUserEmail.getText().trim();
+        String senha = txtUserPass.getText().trim();
+        String telefone = txtUserTel.getText().trim();
         
         try{
             Connection con = DBConnection.getConnection();
@@ -3659,11 +4167,35 @@ public class HomePage extends javax.swing.JFrame {
 
             Connection con = DBConnection.getConnection();
             try{
-                String delete = "delete from tb_usuario where idUsuario=?";
+                String delete = "delete from tb_compras where fkUsuario=?";
                 PreparedStatement pstDelete = con.prepareStatement(delete);
                 pstDelete.setInt(1, Integer.parseInt(idUsuario));
                 pstDelete.execute();
                 ((DefaultTableModel) tabelaClientes.getModel()).removeRow(tabelaClientes.getSelectedRow());
+                try{
+                    String SQLdel = "delete from tb_reclamacao where fkUsuarioSender=?";
+                    PreparedStatement pstDelSQL = con.prepareStatement(SQLdel);
+                    pstDelSQL.setInt(1, Integer.parseInt(idUsuario));
+                    pstDelSQL.execute();
+                    try {
+                        String SQLdeleteSQL = "delete from tb_carrinho where fkUsuario=?";
+                        PreparedStatement pstDeleteSQL = con.prepareStatement(SQLdeleteSQL);
+                        pstDeleteSQL.setInt(1, Integer.parseInt(idUsuario));
+                        pstDeleteSQL.execute();
+                        try {
+                            String SQLdelete = "delete from tb_usuario where idUsuario=?";
+                            PreparedStatement pstDel = con.prepareStatement(SQLdelete);
+                            pstDel.setInt(1, Integer.parseInt(idUsuario));
+                            pstDel.execute();
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        }
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }catch(Exception e){
+                    e.printStackTrace();
+                }
                 atualizarClientes();
                 panelCliente.setVisible(false);
                 panelCliente.setVisible(true);
@@ -3784,6 +4316,7 @@ public class HomePage extends javax.swing.JFrame {
             panelRoupa.setVisible(false);
             panelTenis.setVisible(false);
             panelMain.setVisible(false);
+            panelModa.setVisible(false);
             try{
                 Connection con = DBConnection.getConnection();
                 String sql = "select * from tb_usuario where emailUsuario = ?";
@@ -3811,10 +4344,10 @@ public class HomePage extends javax.swing.JFrame {
 
     private void salvarCadastroAdm1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_salvarCadastroAdm1ActionPerformed
         // SALVAR DADOS PERFIL
-        String nome = myName.getText();
-        String email = myEmail.getText();
-        String senha = myPass.getText();
-        String telefone = myTel.getText();
+        String nome = myName.getText().trim();
+        String email = myEmail.getText().trim();
+        String senha = myPass.getText().trim();
+        String telefone = myTel.getText().trim();
         
         try{
             Connection con = DBConnection.getConnection();
@@ -3875,6 +4408,8 @@ public class HomePage extends javax.swing.JFrame {
         }else if(op6.getBackground().equals(new Color(204, 204, 204))){
             // SAC
             panelSac.setVisible(true);
+        }else if(modaAtual.getBackground().equals(new Color(204, 204, 204))){
+            panelModa.setVisible(true);
         }
     }
     
@@ -3919,6 +4454,429 @@ public class HomePage extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_enviarReclamacaoActionPerformed
 
+    public void atualizaCarrinhoModa(){
+        DefaultTableModel model = (DefaultTableModel) tabelaModa.getModel();
+        // APAGANDO O QUE JÁ EXISTE
+        int i = tabelaModa.getRowCount();
+        
+        for (int r = 0; r < i; r++) {
+            model.removeRow(0);
+        }
+        
+        Connection con = DBConnection.getConnection();
+            try {
+                String sql = "select * from tb_moda";
+                PreparedStatement pst = con.prepareStatement(sql);
+                ResultSet rs2 = pst.executeQuery();
+
+                while (rs2.next()) {
+                    int idProd = rs2.getInt("id");
+                    String nome = rs2.getString("nome");
+                    double valor = rs2.getDouble("valor");
+                    String desc = rs2.getString("descricao");
+                    String tam = rs2.getString("tamanho");
+
+                    model.addRow(new Object[]{idProd, nome, valor, desc, tam});
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+    }
+    
+    private void modaAtualMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_modaAtualMouseClicked
+        // ALTERAR ADM
+        if (modaAtual.getBackground().equals(new Color(204, 204, 204))){
+            // JÁ ESTÁ CINZA
+            atualizaCarrinhoModa();
+        } else if (op1.getBackground().equals(new Color(204, 204, 204))
+            || op2.getBackground().equals(new Color(204, 204, 204))
+            || op3.getBackground().equals(new Color(204, 204, 204))
+            || op4.getBackground().equals(new Color(204, 204, 204))
+            || op5.getBackground().equals(new Color(204, 204, 204))
+            || op6.getBackground().equals(new Color(204, 204, 204))
+            || alterarCliente.getBackground().equals(new Color(204,204,204))){
+            op1.setBackground(new java.awt.Color(102,102,255));
+            op2.setBackground(new java.awt.Color(102,102,255));
+            op3.setBackground(new java.awt.Color(102,102,255));
+            op4.setBackground(new java.awt.Color(102,102,255));
+            op5.setBackground(new java.awt.Color(102,102,255));
+            op6.setBackground(new java.awt.Color(102,102,255));
+            alterarCliente.setBackground(new java.awt.Color(102,102,255));
+            panelRoupa.setVisible(false);
+            panelTenis.setVisible(false);
+            panelHistorico.setVisible(false);
+            panelCarrinho.setVisible(false);
+            jLabel2.setVisible(false);
+            pagamentoPanel.setVisible(false);
+            panelCliente.setVisible(false);
+            panelPerfil.setVisible(false);
+            panelSac.setVisible(false);
+            panelMain.setVisible(false);
+            
+            modaAtual.setBackground(new java.awt.Color(204, 204, 204));
+            panelModa.setVisible(true);
+            atualizaCarrinhoModa();
+            fechar();
+        }
+    }//GEN-LAST:event_modaAtualMouseClicked
+
+    private void adicionarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_adicionarActionPerformed
+        // ADICIONAR AO CARRINHO
+        if(Integer.parseInt(qtdProd.getText().trim()) > 0){
+            int linha_selecionada = tabelaModa.getSelectedRow();
+        
+            if(linha_selecionada!=-1){            
+                String nome = tabelaModa.getValueAt(linha_selecionada, 1).toString();
+                double valor = Double.parseDouble(tabelaModa.getValueAt(linha_selecionada, 2).toString());
+                String descricao = tabelaModa.getValueAt(linha_selecionada, 3).toString();
+                String tamanho = tabelaModa.getValueAt(linha_selecionada, 4).toString();
+                int qtd = Integer.parseInt(qtdProd.getText());
+
+                adicionarAoCarrinho(nome,valor,descricao,qtd,tamanho);
+                atualizaCarrinhoModa();
+                qtdProd.setText("1");
+            }else{
+                JOptionPane.showMessageDialog(null, "Selecione um dos produtos");
+            }
+        }else{
+            JOptionPane.showMessageDialog(null, "Selecione uma quantidade válida");
+        }
+        
+    }//GEN-LAST:event_adicionarActionPerformed
+
+    public void adicionarAoCarrinho(String nome, Double valor, String descricao, int qtd, String tamanho){
+        if(!perfil.getText().equals("Administrador")){            
+            try{
+                Connection con = DBConnection.getConnection();
+                String emailUser = "select idUsuario from tb_usuario where emailUsuario = ?";
+                PreparedStatement pstEmail = con.prepareStatement(emailUser);
+                pstEmail.setString(1, emailPessoal);
+                ResultSet rs = pstEmail.executeQuery();
+
+                if(rs.next()){
+                    try{      
+                        String sql = "insert into tb_carrinho(nomeProduto, valorProduto, descricaoProduto, qtdProduto, valorTotal, fkUsuario) values(?,?,?,?,?,?)";                        
+                        PreparedStatement pst = con.prepareStatement(sql);
+                        pst.setString(1, (nome + " - " + tamanho));
+                        pst.setDouble(2, valor);
+                        pst.setString(3, descricao);
+                        pst.setInt(4, qtd);
+                        pst.setDouble(5, (valor*qtd));
+                        pst.setInt(6, rs.getInt("idUsuario"));
+
+                        int updateRowCount = pst.executeUpdate();
+
+                        if(updateRowCount > 0){
+                            JOptionPane.showMessageDialog(this, "Produto adicionado ao carrinho!");
+                        }else{
+                            JOptionPane.showMessageDialog(this, "Erro no processamento do produto!");
+                        }
+                    }catch(Exception e){
+                        e.printStackTrace();
+                    }
+                }
+
+            }catch (Exception e){
+                e.printStackTrace();
+            }
+        }
+    }
+    
+    private void MaisqtdProdutoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MaisqtdProdutoActionPerformed
+        String qtd = qtdProd.getText();
+        int quantidade = Integer.parseInt(qtd.trim());
+        qtdProd.setText(String.valueOf(quantidade+1));
+    }//GEN-LAST:event_MaisqtdProdutoActionPerformed
+
+    private void MenosqtdProdutoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MenosqtdProdutoActionPerformed
+        String qtd = qtdProd.getText();
+        if(Integer.parseInt(qtd.trim()) == 1){
+            JOptionPane.showMessageDialog(null, "A quantidade mínima é 1");
+        }else{
+            int quantidade = Integer.parseInt(qtd.trim());
+            qtdProd.setText(String.valueOf(quantidade-1));
+        }
+    }//GEN-LAST:event_MenosqtdProdutoActionPerformed
+
+    private void op7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_op7MouseClicked
+        if (op7.getBackground().equals(new Color(204, 204, 204))){
+            // JÁ ESTÁ CINZA
+            atualizarReclamacoes();
+        } else if (op1.getBackground().equals(new Color(204, 204, 204))
+            || op2.getBackground().equals(new Color(204, 204, 204))
+            || op3.getBackground().equals(new Color(204, 204, 204))
+            || op6.getBackground().equals(new Color(204, 204, 204))
+            || alterarAdm.getBackground().equals(new Color(204,204,204))
+            || alterarCliente.getBackground().equals(new Color(204,204,204))
+            || opProd.getBackground().equals(new Color(204,204,204))){
+            op1.setBackground(new java.awt.Color(102,102,255));
+            op2.setBackground(new java.awt.Color(102,102,255));
+            op3.setBackground(new java.awt.Color(102,102,255));
+            op6.setBackground(new java.awt.Color(102,102,255));
+            opProd.setBackground(new java.awt.Color(102,102,255));
+            panelProduto.setVisible(false);
+            alterarCliente.setBackground(new java.awt.Color(102,102,255));
+            alterarAdm.setBackground(new java.awt.Color(102,102,255));
+            modaAtual.setBackground(new java.awt.Color(102,102,255));
+            panelModa.setVisible(false);
+            panelRoupa.setVisible(false);
+            panelTenis.setVisible(false);
+            panelHistorico.setVisible(false);
+            panelCarrinho.setVisible(false);
+            jLabel2.setVisible(false);
+            pagamentoPanel.setVisible(false);
+            panelAdm.setVisible(false);
+            panelPerfil.setVisible(false);
+            panelSac.setVisible(false);
+            panelMain.setVisible(false);
+
+            op7.setBackground(new java.awt.Color(204,204,204));
+            panelReclamacao.setVisible(true);
+            atualizarReclamacoes();
+            fechar();
+        }
+    }//GEN-LAST:event_op7MouseClicked
+
+    private void excluirReclamacaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_excluirReclamacaoActionPerformed
+        int linha_selecionada = tabelaReclamacao.getSelectedRow();
+        
+        if(linha_selecionada!=-1){
+            String idRec = tabelaReclamacao.getValueAt(linha_selecionada, 0).toString();
+
+            Connection con = DBConnection.getConnection();
+            try{
+                
+                String delete = "delete from tb_reclamacao where id=?";
+                PreparedStatement pstDelete = con.prepareStatement(delete);
+                pstDelete.setInt(1, Integer.parseInt(idRec));
+                pstDelete.execute();
+                ((DefaultTableModel) tabelaReclamacao.getModel()).removeRow(tabelaReclamacao.getSelectedRow());
+                atualizarReclamacoes();
+            }catch(Exception e){
+                e.printStackTrace();
+            }
+        }else{
+            JOptionPane.showMessageDialog(this, "Parece que você não tem nada selecionado!");
+        }
+    }//GEN-LAST:event_excluirReclamacaoActionPerformed
+
+    private void salvarProdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_salvarProdActionPerformed
+        String nome = txtNomeProd.getText().trim();
+        Double valor = Double.valueOf(txtValorProd.getText());
+        String descricao = txtDescProd.getText().trim();
+        String tamanho = txtTamProd.getText().trim();
+        
+        if (nome.equals("") || txtValorProd.getText().trim().equals("") || descricao.equals("") || tamanho.equals("")){
+            JOptionPane.showMessageDialog(this, "Por favor, preencha todos os campos");
+        } else {
+            try{
+                Connection con = DBConnection.getConnection();
+                String sql = "insert into tb_moda(nome, valor, descricao, tamanho) values(?,?,?,?)";
+                PreparedStatement pst = con.prepareStatement(sql);
+                pst.setString(1, nome);
+                pst.setDouble(2, valor);
+                pst.setString(3, descricao);
+                pst.setString(4, tamanho);
+
+                int updateRowCount = pst.executeUpdate();
+
+                if(updateRowCount > 0){
+                    txtNomeProd.setText("");
+                    txtValorProd.setText("");
+                    txtDescProd.setText("");
+                    txtTamProd.setText("");
+                    atualizaProduto();
+                }else{
+                    JOptionPane.showMessageDialog(this, "Erro no cadastro do produto!");
+                }
+            }catch (Exception e){
+                e.printStackTrace();
+            }
+        }
+    }//GEN-LAST:event_salvarProdActionPerformed
+
+    private void excluirCliente1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_excluirCliente1ActionPerformed
+        // Excluir item
+        int linha_selecionada = tabelaProduto.getSelectedRow();
+        
+        if(linha_selecionada!=-1){
+            String idProduto = tabelaProduto.getValueAt(linha_selecionada, 0).toString();
+            
+            Connection con = DBConnection.getConnection();
+            try{
+                String delete = "delete from tb_moda where id=?";
+                PreparedStatement pstDelete = con.prepareStatement(delete);
+                pstDelete.setInt(1, Integer.parseInt(idProduto));
+                pstDelete.execute();
+                ((DefaultTableModel) tabelaProduto.getModel()).removeRow(tabelaProduto.getSelectedRow());
+                atualizaProduto();
+            }catch(Exception e){
+                e.printStackTrace();
+            }
+        }else{
+            JOptionPane.showMessageDialog(this, "Parece que você não tem nada selecionado!");
+        }
+    }//GEN-LAST:event_excluirCliente1ActionPerformed
+
+    public void atualizaProduto(){
+        DefaultTableModel model = (DefaultTableModel) tabelaProduto.getModel();
+        // APAGANDO O QUE JÁ EXISTE
+        int i = tabelaProduto.getRowCount();
+        
+        for (int r = 0; r < i; r++) {
+            model.removeRow(0);
+        }
+        
+        Connection con = DBConnection.getConnection();
+            try {
+                String sql = "select * from tb_moda";
+                PreparedStatement pst = con.prepareStatement(sql);
+                ResultSet rs2 = pst.executeQuery();
+
+                while (rs2.next()) {
+                    int idProd = rs2.getInt("id");
+                    String nome = rs2.getString("nome");
+                    double valor = rs2.getDouble("valor");
+                    String desc = rs2.getString("descricao");
+                    String tam = rs2.getString("tamanho");
+
+                    model.addRow(new Object[]{idProd, nome, valor, desc, tam});
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+    }
+    
+    private void opProdMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_opProdMouseClicked
+        if (opProd.getBackground().equals(new Color(204, 204, 204))){
+            // JÁ ESTÁ CINZA
+            atualizaProduto();
+        } else if (op1.getBackground().equals(new Color(204, 204, 204))
+            || op2.getBackground().equals(new Color(204, 204, 204))
+            || op3.getBackground().equals(new Color(204, 204, 204))
+            || op6.getBackground().equals(new Color(204, 204, 204))
+            || alterarAdm.getBackground().equals(new Color(204,204,204))
+            || alterarCliente.getBackground().equals(new Color(204,204,204))
+            || op7.getBackground().equals(new Color(204,204,204))){
+            op1.setBackground(new java.awt.Color(102,102,255));
+            op2.setBackground(new java.awt.Color(102,102,255));
+            op3.setBackground(new java.awt.Color(102,102,255));
+            op6.setBackground(new java.awt.Color(102,102,255));
+            op7.setBackground(new java.awt.Color(102,102,255));
+            alterarCliente.setBackground(new java.awt.Color(102,102,255));
+            alterarAdm.setBackground(new java.awt.Color(102,102,255));
+            modaAtual.setBackground(new java.awt.Color(102,102,255));
+            panelModa.setVisible(false);
+            panelRoupa.setVisible(false);
+            panelTenis.setVisible(false);
+            panelHistorico.setVisible(false);
+            panelCarrinho.setVisible(false);
+            jLabel2.setVisible(false);
+            pagamentoPanel.setVisible(false);
+            panelAdm.setVisible(false);
+            panelCliente.setVisible(false);
+            panelPerfil.setVisible(false);
+            panelSac.setVisible(false);
+            panelMain.setVisible(false);
+            panelReclamacao.setVisible(false);
+
+            opProd.setBackground(new java.awt.Color(204,204,204));
+            panelProduto.setVisible(true);
+            atualizaProduto();
+            fechar();
+        }
+    }//GEN-LAST:event_opProdMouseClicked
+
+    private void salvarProdutoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_salvarProdutoActionPerformed
+        String nome = txtNomeProdCarregado.getText();
+        String valor = txtValorProdCarregado.getText();
+        String desc = txtDescProdCarregado.getText();
+        String tam = txtTamProdCarregado.getText();
+        String id = txtId.getText();
+        
+        if(!id.trim().equals("")){
+            if(!nome.trim().equals("") && !valor.trim().equals("") && !desc.trim().equals("") && !tam.trim().equals("")){
+                try {
+                    Connection con = DBConnection.getConnection();
+                    String update = "update tb_moda set nome=?, valor=?, descricao=?, tamanho=? where id=?";
+                    PreparedStatement pstUpdate = con.prepareStatement(update);
+                    pstUpdate.setString(1, nome);
+                    pstUpdate.setDouble(2, Double.parseDouble(valor));
+                    pstUpdate.setString(3, desc);
+                    pstUpdate.setString(4, tam);
+                    pstUpdate.setInt(5, Integer.parseInt(id));
+                    pstUpdate.executeUpdate();
+                    atualizaProduto(); 
+                    jPanel12.setVisible(true);
+                    tabela4.setVisible(true);
+                } catch (Exception e) {
+                    JOptionPane.showMessageDialog(null, "Certifique-se de que preencheu tudo, sobretudo o valor (com ponto final), corretamente.");
+                }
+            }else{
+                JOptionPane.showMessageDialog(null, "Não deixe nenhum campo vazio");
+            }
+        }else{
+            JOptionPane.showMessageDialog(null, "Parece que algo deu errado");
+        }
+        
+        atualizaPanel.setVisible(false);
+    }//GEN-LAST:event_salvarProdutoActionPerformed
+
+    private void cancelarAlteracaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cancelarAlteracaoActionPerformed
+        txtNomeProdCarregado.setText("");
+        txtValorProdCarregado.setText("");
+        txtDescProdCarregado.setText("");
+        txtTamProdCarregado.setText("");
+        atualizaPanel.setVisible(false);
+        jPanel12.setVisible(true);
+        tabela4.setVisible(true);
+    }//GEN-LAST:event_cancelarAlteracaoActionPerformed
+
+    private void atualizaProdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_atualizaProdActionPerformed
+        int linha_selecionada = tabelaProduto.getSelectedRow();
+        
+        if(linha_selecionada!=-1){
+            txtId.setText(tabelaProduto.getValueAt(linha_selecionada, 0).toString());
+            txtNomeProdCarregado.setText(tabelaProduto.getValueAt(linha_selecionada, 1).toString());
+            txtValorProdCarregado.setText(tabelaProduto.getValueAt(linha_selecionada, 2).toString());
+            txtDescProdCarregado.setText(tabelaProduto.getValueAt(linha_selecionada, 3).toString());
+            txtTamProdCarregado.setText(tabelaProduto.getValueAt(linha_selecionada, 4).toString());  
+            atualizaPanel.setVisible(true);
+            jPanel12.setVisible(false);
+            tabela4.setVisible(false);
+        }else{
+            JOptionPane.showMessageDialog(null, "Parece que você não selecionou nenhum produto!");
+        }             
+    }//GEN-LAST:event_atualizaProdActionPerformed
+
+    public void atualizarReclamacoes(){
+        DefaultTableModel model = (DefaultTableModel) tabelaReclamacao.getModel();
+        // APAGANDO O QUE JÁ EXISTE
+        int i = tabelaReclamacao.getRowCount();
+        
+        for (int r = 0; r < i; r++) {
+            model.removeRow(0);
+        }
+        
+        Connection con = DBConnection.getConnection();
+            try {
+                String sql = "select * from tb_reclamacao";
+                PreparedStatement pst = con.prepareStatement(sql);
+                ResultSet rs2 = pst.executeQuery();
+
+                while (rs2.next()) {
+                    int id = rs2.getInt("id");
+                    String assunto = rs2.getString("assunto");
+                    String mensagem = rs2.getString("mensagem");
+                    int idUser = rs2.getInt("fkUsuarioSender");
+
+                    model.addRow(new Object[]{id, assunto, mensagem, idUser});
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+    }
+    
     public void enviaDados(String nome, String preco, String descricao){
         if(!perfil.getText().equals("Administrador")){
             String[] valorComSplit = preco.split(" ");
@@ -4055,19 +5013,30 @@ public class HomePage extends javax.swing.JFrame {
             perfil.setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
             alterarCliente.setVisible(true);
             alterarAdm.setVisible(true);
+            modaAtual.setVisible(false);
+            
             op4.setVisible(false);
             op4.setEnabled(false);
             op5.setVisible(false);
             op5.setEnabled(false);
             op6.setVisible(false);
+            op7.setVisible(true);
+            opProd.setVisible(true);
         }
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton MaisqtdProduto;
+    private javax.swing.JButton MenosqtdProduto;
+    private javax.swing.JButton adicionar;
     private javax.swing.JPanel alterarAdm;
     private javax.swing.JPanel alterarCliente;
     private javax.swing.JLabel apresentacao;
+    private javax.swing.JLabel apresentacao2;
+    private javax.swing.JPanel atualizaPanel;
+    private javax.swing.JButton atualizaProd;
     private javax.swing.JButton aumentarQTD;
+    private javax.swing.JButton cancelarAlteracao;
     private javax.swing.JComboBox<String> comboBox;
     private javax.swing.JButton comprar;
     private javax.swing.JButton diminuirQTD;
@@ -4084,7 +5053,9 @@ public class HomePage extends javax.swing.JFrame {
     private javax.swing.JButton enviarReclamacao;
     private javax.swing.JButton excluirAdm;
     private javax.swing.JButton excluirCliente;
+    private javax.swing.JButton excluirCliente1;
     private javax.swing.JButton excluirItem;
+    private javax.swing.JButton excluirReclamacao;
     private javax.swing.JButton finalizarCompra;
     private javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel1;
@@ -4173,8 +5144,24 @@ public class HomePage extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel174;
     private javax.swing.JLabel jLabel175;
     private javax.swing.JLabel jLabel176;
+    private javax.swing.JLabel jLabel177;
+    private javax.swing.JLabel jLabel178;
+    private javax.swing.JLabel jLabel179;
     private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel180;
+    private javax.swing.JLabel jLabel181;
+    private javax.swing.JLabel jLabel182;
+    private javax.swing.JLabel jLabel183;
+    private javax.swing.JLabel jLabel184;
+    private javax.swing.JLabel jLabel185;
+    private javax.swing.JLabel jLabel186;
+    private javax.swing.JLabel jLabel187;
+    private javax.swing.JLabel jLabel188;
+    private javax.swing.JLabel jLabel189;
     private javax.swing.JLabel jLabel19;
+    private javax.swing.JLabel jLabel190;
+    private javax.swing.JLabel jLabel191;
+    private javax.swing.JLabel jLabel192;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
@@ -4266,6 +5253,8 @@ public class HomePage extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
+    private javax.swing.JPanel jPanel12;
+    private javax.swing.JPanel jPanel13;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
@@ -4276,6 +5265,7 @@ public class HomePage extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JPanel menu;
+    private javax.swing.JPanel modaAtual;
     private app.bolivia.swing.JCTextField myEmail;
     private app.bolivia.swing.JCTextField myName;
     private app.bolivia.swing.JCTextField myPass;
@@ -4296,13 +5286,18 @@ public class HomePage extends javax.swing.JFrame {
     private javax.swing.JPanel op4;
     private javax.swing.JPanel op5;
     private javax.swing.JPanel op6;
+    private javax.swing.JPanel op7;
+    private javax.swing.JPanel opProd;
     private javax.swing.JPanel pagamentoPanel;
     private javax.swing.JPanel panelAdm;
     private javax.swing.JPanel panelCarrinho;
     private javax.swing.JPanel panelCliente;
     private javax.swing.JPanel panelHistorico;
     private javax.swing.JPanel panelMain;
+    private javax.swing.JPanel panelModa;
     private javax.swing.JPanel panelPerfil;
+    private javax.swing.JPanel panelProduto;
+    private javax.swing.JPanel panelReclamacao;
     private javax.swing.JScrollPane panelRoupa;
     private javax.swing.JPanel panelSac;
     private javax.swing.JScrollPane panelTenis;
@@ -4317,19 +5312,28 @@ public class HomePage extends javax.swing.JFrame {
     private javax.swing.JPanel peca9;
     private javax.swing.JLabel perfil;
     private app.bolivia.swing.JCTextField qtdNew;
+    private app.bolivia.swing.JCTextField qtdProd;
     private javax.swing.JTextArea reclamacao;
     private javax.swing.JPanel roupa1;
     private javax.swing.JButton salvarCadastro;
     private javax.swing.JButton salvarCadastroAdm;
     private javax.swing.JButton salvarCadastroAdm1;
+    private javax.swing.JButton salvarProd;
+    private javax.swing.JButton salvarProduto;
     private javax.swing.JScrollPane tabela;
     private javax.swing.JScrollPane tabela1;
+    private javax.swing.JScrollPane tabela2;
+    private javax.swing.JScrollPane tabela3;
+    private javax.swing.JScrollPane tabela4;
     private javax.swing.JScrollPane tabelaAdm;
     private javax.swing.JTable tabelaAdministrador;
     private javax.swing.JTable tabelaCarrinho;
     private javax.swing.JScrollPane tabelaCliente;
     private javax.swing.JTable tabelaClientes;
     private javax.swing.JTable tabelaHistorico;
+    private javax.swing.JTable tabelaModa;
+    private javax.swing.JTable tabelaProduto;
+    private javax.swing.JTable tabelaReclamacao;
     private javax.swing.JPanel tenis1;
     private javax.swing.JPanel tenis10;
     private javax.swing.JPanel tenis11;
@@ -4352,14 +5356,24 @@ public class HomePage extends javax.swing.JFrame {
     private javax.swing.JPanel tenis9;
     private javax.swing.JLabel total;
     private javax.swing.JLabel total1;
+    private javax.swing.JLabel total2;
     private javax.swing.JLabel totall;
     private app.bolivia.swing.JCTextField txtAdmEmail;
     private app.bolivia.swing.JCTextField txtAdmName;
     private app.bolivia.swing.JCTextField txtAdmPass;
     private app.bolivia.swing.JCTextField txtAdmTel;
+    private app.bolivia.swing.JCTextField txtDescProd;
+    private app.bolivia.swing.JCTextField txtDescProdCarregado;
+    private javax.swing.JLabel txtId;
+    private app.bolivia.swing.JCTextField txtNomeProd;
+    private app.bolivia.swing.JCTextField txtNomeProdCarregado;
+    private app.bolivia.swing.JCTextField txtTamProd;
+    private app.bolivia.swing.JCTextField txtTamProdCarregado;
     private app.bolivia.swing.JCTextField txtUserEmail;
     private app.bolivia.swing.JCTextField txtUserName;
     private app.bolivia.swing.JCTextField txtUserPass;
     private app.bolivia.swing.JCTextField txtUserTel;
+    private app.bolivia.swing.JCTextField txtValorProd;
+    private app.bolivia.swing.JCTextField txtValorProdCarregado;
     // End of variables declaration//GEN-END:variables
 }
